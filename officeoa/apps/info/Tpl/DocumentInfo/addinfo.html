@@ -1,0 +1,112 @@
+<include file='../../Public/nav/Index.html'/>
+		<!-- Breadcrumb Bar: Start -->
+		<div id="breadcrumb">
+			
+			<!-- Breadcrumb: Start -->
+			<ul class="left">
+				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
+				<li class="icon point_right"><a href="__APP__">信息中心</a></li>
+				<li class="icon point_right"><a href="__APP__/InterInfo/index">公文通知</a></li>
+			</ul>
+			<!-- Breadcrumb: End -->
+			<!-- Breadcrumb Icon Links: Start -->
+			<ul class="right">
+				<li><a href="#" class="icon support tip" title="当前日期">当前日期：</a></li>
+				<li><a href="#" id="datetime" title="当前日期" style="color: #B0B0B0">当前日期</a></li>
+				
+			</ul>
+			<!-- Breadcrumb Icon Links: End -->
+			
+		</div>
+		<!-- Breadcrumb Bar: End -->
+		
+	</div>
+	<!-- Header Grid Container: End -->
+	
+<include file="../../Public/nav/Info.html"/>
+
+<!-- 75% Box Grid Container: Start -->
+<div class="grid_18">
+
+	<!-- Box Header: Start -->
+	<div class="box_top padding">
+		
+		<h2 class="icon user">公文通知</h2>
+		<ul class="sorting">
+		<li>
+		<a class="" href="__APP__/InterInfo/index">列表</a>
+		</li>
+		<li>
+		<a class="active" href="javascript:void(0)">添加</a>
+		</li>
+		</ul>
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content padding">
+		<div class="field">
+		<label class="left" >通知标题:</label>
+		<input type="text" id="title" value="{$info.title}"/>
+		</div>
+		<input type="hidden" value="{$info['eid']}" id="eid"/>
+		<div class="field">
+		<label >通知内容:</label>
+		{:W('Editor',array('content'=>$info['content']))}
+		</div>
+		<div class="field" align="center">
+			<div class="button" style="-moz-user-select: none;">
+			<span>
+			提交
+			<button style="opacity: 0;" id="submit">提交</button>
+			</span>
+			</div>
+			<div class="button" style="-moz-user-select: none;">
+			<span>
+			重置
+			<button class="secondary" type="button" style="opacity: 0;" id="reset">重置</button>
+			</span>
+			</div>
+		</div>
+	</div>
+	<!-- Box Content: End -->
+	
+</div>	
+<!-- 75% Box Grid Container: End -->
+
+<include file='../../Public/foot.html'/>
+<script>
+$(function(){
+	$('#submit').click(function(){
+		var title=$.trim($('#title').val());
+		var content=$.trim($('.ke-edit-iframe').contents().find('.ke-content').html());
+		if(title==""||title==null){
+			alert('通告标题不能为空');
+			return;
+		}
+		if(content==""||content=='<br>'){
+			alert('通告内容不能为空');
+			return;
+		}
+		$.post(
+				"__APP__/InterInfo/doAddInfo",
+				{'title':title,'content':content},
+				function(data){
+					//alert(data);
+					if(data=='error'){
+						alert('操作失败，请重试');
+						}else{
+							alert('操作成功');
+							window.location.href='__APP__/InterInfo/index';
+							}
+					
+				}
+				)
+		})
+	$('#reset').click(function(){
+		$('#title').val("");
+		$('.ke-edit-iframe').contents().find('.ke-content').html("")
+		})
+	
+})
+</script>
