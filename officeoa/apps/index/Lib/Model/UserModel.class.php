@@ -1,6 +1,0 @@
-<?
-class UserModel extends Model{
-	
-
-}
-?>
