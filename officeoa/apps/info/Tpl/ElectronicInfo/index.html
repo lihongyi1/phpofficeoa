@@ -1,0 +1,207 @@
+<include file='../../Public/nav/Index.html'/>
+		<!-- Breadcrumb Bar: Start -->
+		<div id="breadcrumb">
+			
+			<!-- Breadcrumb: Start -->
+			<ul class="left">
+				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
+				<li class="icon point_right"><a href="__APP__">信息中心</a></li>
+				<li class="icon point_right"><a href="__APP__/ElectronicInfo/index">电子公告</a></li>
+			</ul>
+			<!-- Breadcrumb: End -->
+			<!-- Breadcrumb Icon Links: Start -->
+			<ul class="right">
+				<li><a href="#" class="icon support tip" title="当前日期">当前日期：</a></li>
+				<li><a href="#" id="datetime" title="当前日期" style="color: #B0B0B0">当前日期</a></li>
+				
+			</ul>
+			<!-- Breadcrumb Icon Links: End -->
+			
+		</div>
+		<!-- Breadcrumb Bar: End -->
+		
+	</div>
+	<!-- Header Grid Container: End -->
+	
+	
+<include file="../../Public/nav/Info.html"/> 
+
+<!-- 75% Box Grid Container: Start -->
+<div class="grid_18">
+
+	<!-- Box Header: Start -->
+	<div class="box_top padding">
+		
+		<h2 class="icon user">电子公告</h2>
+		<ul class="sorting">
+		<li>
+		<a class="active" href="__APP__/ElectronicInfo/index">列表</a>
+		</li>
+		<li>
+		<a class="" href="__APP__/ElectronicInfo/addInfo">添加</a>
+		</li>
+		</ul>
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content padding">
+	<!-- News Table Tabs: Start -->
+		<div class="box_content" >
+			<div class="table_actions">
+					<div class="field ">
+					
+					<div class="button right" style="-moz-user-select: none;">
+					<span>
+						搜　　索
+					<button style="opacity: 0;" id="search">搜　　索</button>
+					</span>
+					</div>
+					<input type="text" class="right" id="searchinput" value="{$keyword}"/>　　
+					</div>
+					
+				</div>
+		
+			<!-- News Sorting Table: Start -->
+			<div >
+				
+				<table class="sorting">
+					<thead>
+						<tr>
+							<th class="checkers"><input type="checkbox" class="checkAll" /></th>
+							<th class="align_left" style="width: 20%">电子公告</th>
+							<th class="align_left center" style="width: 15%">发布人</th>
+							<th class="align_left center">访问次数</th>
+							<th class="align_left center">发布时间</th>
+							<th class="align_left center tools">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<php>if(empty($info['content'])){</php>
+							<tr><td colspan="6" ><a>没有符合条件的搜索结果。</a></td></tr>
+						<php>}</php>
+						<volist name='info["content"]' id='content'>
+							<tr>
+								<th class="checkers"><input type="checkbox" class="checkOne" id="{$content.eid}"/></th>
+								<td class="align_left"><a href="__APP__/ElectronicInfo/lookup/eid/{$content.eid}">{$content.title}</a></td>
+								<td class="align_left center"><a href="__ROOT__/personal/index.php?s=/AddressList/userInfo/uid/{$content['uid']['userid']}" >{$content['uid']['realname']}</a></td>
+								<td class="align_left center"> {$content.click} </td>
+								<td class="align_left center">{$content.date}</td>
+								<td class="align_left tools center">
+									<a href="__APP__/ElectronicInfo/look/eid/{$content.eid}" rel='facebox' class="view tip" title="查看">查看</a>
+									<a href="__APP__/ElectronicInfo/edit/eid/{$content.eid}" class="edit tip" title="编辑">编辑</a>
+									<a href="javascript:void(0)" class="delete tip" title="删除" >删除</a>
+								</td>
+							</tr>
+						</volist>
+						
+						
+					</tbody>
+				</table> 
+				
+				
+				<div class="table_actions">
+				<php>if(!empty($info['content'])){ </php>
+					
+					<input type="checkbox" class="checkAll" />　　
+					<div class="button" style="-moz-user-select: none;">
+					<span>
+						删除
+					<button style="opacity: 0;" id="deleteAll">删除</button>
+					</span>
+					</div>
+				<php>}</php>	
+				</div>
+				
+				<div  style="font-size: 12px" class="right">
+					{$info['page']}
+				</div>
+				
+				
+			</div>
+		</div>
+		<!-- News Table Tabs: End -->
+	</div>
+	<!-- Box Content: End -->
+
+</div>	
+<!-- 75% Box Grid Container: End -->
+
+<include file='../../Public/foot.html'/>
+<script>
+$(function(){
+	$('a[rel=facebox]').facebox();
+	$('.delete.tip').click(function(){
+			if(confirm('确认删除该条公告？')){
+			var id=$(this).parents('tr').find(':checkbox').attr('id');
+			$.post(
+					"__APP__/ElectronicInfo/delete",
+					{'eid':id},
+					function(data){
+						if(data=='success'){
+								window.location.reload(true);
+							}else{
+								alert('操作失败，请重试');
+								}
+					}
+					)
+			}
+	})
+	$('.checkAll').click(function(){
+			if(this.checked){
+				$(':checkbox').prop('checked',true);
+			}else{
+				$(':checkbox').removeProp('checked');
+			}
+		})
+	$('.checkOne').click(function(){
+			if(this.checked){
+				$(this).prop('checked',true);
+			}else{
+				$(this).removeProp('checked');
+				$('.checkAll').removeProp('checked');
+				}
+			var flag=true;
+			$('.checkOne').each(function(){
+					if(!$(this).prop('checked')){
+						flag=false;
+						return;
+					}
+				})
+			if(flag){
+				$(':checkbox').prop('checked',true);
+				}
+		//	alert($('.checkOne :checked').length);
+		})
+	$('#deleteAll').click(function(){
+			if(confirm('确认删除所选公告？')){
+			var ids=new Array();
+			$('.checkOne').each(function(){
+					if($(this).prop('checked')){
+							ids.push($(this).attr('id'));
+						}
+				})
+			if(ids.length==0){
+					alert('请选择要删除的公告');
+					return ;
+				}
+			$.post(
+					"__APP__/ElectronicInfo/deleteAll",
+					{'ids[]':ids},
+					function(data){
+							if(data=='error'){
+								alert('操作失败，请重试');
+								}else{
+									alert('操作成功');
+									window.location.reload(true);
+									}
+						}
+					)
+			}
+		})
+	$('#search').click(function(){
+			window.location.href="__APP__/ElectronicInfo/search/keyword/"+$('#searchinput').val();
+			
+		})
+})
+</script>

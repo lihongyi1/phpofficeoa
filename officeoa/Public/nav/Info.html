@@ -1,0 +1,28 @@
+<!-- 25% Box Grid Container: Start -->
+<div class="grid_6">
+
+	<!-- Box Header: Start -->
+	<div class="box_top">
+		
+		<h2 class="icon coverflow">信息中心</h2>
+		
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content">
+		
+		<!-- Vertical Menu: Start -->
+			<ul class="menu">
+				<if condition='MODULE_NAME eq ElectronicInfo'><li><a href="__ROOT__/info/index.php?s=/ElectronicInfo/index" class='active'><span class="icon pages"></span>电子公告</a><else/><li><a href="__ROOT__/info/index.php?s=/ElectronicInfo/index"><span class="icon pages"></span>电子公告</a></if>
+				<if condition='MODULE_NAME eq InterInfo'><li><a href="__ROOT__/info/index.php?s=/InterInfo/index" class='active'><span class="icon pages"></span>内部通知</a><else/><li><a href="__ROOT__/info/index.php?s=/InterInfo/index"><span class="icon pages"></span>内部通知</a></if>
+				<if condition='MODULE_NAME eq DocumentInfo'><li><a href="__ROOT__/info/index.php?s=/DocumentInfo/index" class='active'><span class="icon pages"></span>公文通知</a><else/><li><a href="__ROOT__/info/index.php?s=/DocumentInfo/index"><span class="icon pages"></span>公文通知</a></if>
+				<if condition='MODULE_NAME eq Info'><li><a href="__ROOT__/info/index.php?s=/Info/index" class='active'><span class="icon pages"></span>信息交流</a><else/><li><a href="__ROOT__/info/index.php?s=/Info/index"><span class="icon pages"></span>信息交流</a></if>
+			</ul>
+		<!-- Vertical Menu: End -->
+
+	</div>
+	<!-- Box Content: End -->
+	
+</div>
+<!-- 25% Box Grid Container: End -->

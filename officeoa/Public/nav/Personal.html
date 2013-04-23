@@ -1,0 +1,27 @@
+<!-- 25% Box Grid Container: Start -->
+<div class="grid_6">
+
+	<!-- Box Header: Start -->
+	<div class="box_top">
+		
+		<h2 class="icon coverflow">个人中心</h2>
+		
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content">
+		
+		<!-- Vertical Menu: Start -->
+			<ul class="menu">
+				<if condition='MODULE_NAME eq UserInfo'><li><a href="__ROOT__/personal/index.php?s=/UserInfo/index" class='active'><span class="icon user"></span>个人信息</a><else/><li><a href="__ROOT__/personal/index.php?s=/UserInfo/index"><span class="icon user"></span>个人信息</a></if>
+				<if condition='MODULE_NAME eq AddressList'><li><a href="__ROOT__/personal/index.php?s=/AddressList/index" class='active'><span class="icon typography"></span>通讯录</a><else/><li><a href="__ROOT__/personal/index.php?s=/AddressList/index"><span class="icon typography"></span>通讯录</a></if>
+				<if condition='MODULE_NAME eq Working'><li><a href="__ROOT__/personal/index.php?s=/Working/index" class='active'><span class="icon blocks"></span>工作安排</a><else/><li><a href="__ROOT__/personal/index.php?s=/Working/index"><span class="icon blocks"></span>工作安排</a></if>
+			</ul>
+		<!-- Vertical Menu: End -->
+
+	</div>
+	<!-- Box Content: End -->
+	
+</div>
+<!-- 25% Box Grid Container: End -->

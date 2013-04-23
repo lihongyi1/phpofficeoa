@@ -1,0 +1,96 @@
+<!-- Footer Grid: Start -->
+<div class="grid_24" >
+
+	<!-- Footer: Start -->
+	<div id="footer">
+		
+		<p class="left">
+			Copyright &#169; 2011 <a href="#">Yourcompany</a>. 
+			Powered by <a href="/user/Kaasper/?ref=kaasper">Simplpan</a>.
+		</p>
+		
+		<!-- Footer Icon Navigation: Start -->
+		<ul class="right">
+			<li><a href="#" class="icon dashboard tip active" title="Dashboard">Dashboard</a></li>
+			<li><a href="#" class="icon pages tip" title="Pages">Pages</a></li>
+			<li><a href="#" class="icon users tip" title="Users">Users</a></li>
+			<li><a href="#" class="icon settings tip" title="Settings">Settings</a></li>
+			<li><a href="#" class="icon support tip" title="Support">Support</a></li>
+			<li><a href="#" class="icon home tip" title="Home">Home</a></li>
+		</ul>
+		<!--Footer Icon Navigation: End -->
+		
+	</div>
+	<!-- Footer: End -->
+	
+</div>
+<!-- Footer Grid: End -->
+</div>
+
+<input type="hidden" id="public_url" value='PUBLIC_URL'/>
+<script type="text/javascript" src="PUBLIC_URL/js/jquery.facebox.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+			var mydate=new Date();
+			var week=new Array('星期日','星期一','星期二','星期三','星期四','星期五','星期六');
+			$("#datetime").html(mydate.getFullYear()+" 年 "+(mydate.getMonth()+1)+" 月 "+mydate.getDate()+" 日 "+week[mydate.getDay()]);
+			
+			$("<span class='v'></span>").insertBefore("#userpanel ul.dropdown ul.subnav");
+			
+			// Inserts the "v" Icon
+			$("<span class='v'></span>").insertAfter("ul#navigation.dropdown ul.subnav");
+			$("#userpanel ul.dropdown").hover(function() { 
+				  
+				// Sets the top text as active (the dropdown)
+				$(this).find(".top").addClass("active");
+				
+				// Slides the "subnav" on hover
+				$(this).find("ul.subnav").show();
+				// Shows the white 'v'
+				$(this).find("span.v").addClass("active");
+			  
+				// On hover off
+				$(this).hover(function() {  
+				}, function(){  
+					
+					// Hides the subnavigation when isn't on the "subnav" anymore
+					$(this).find("ul.subnav").stop(false, true).hide(); 
+					
+					// Removes top text as active (the dropdown)
+					$(this).find(".top").removeClass("active");
+					
+					// Hides the white 'v'
+					$(this).find("span.v").removeClass("active");
+				});  
+			});  
+			$("ul#navigation.dropdown li.topnav").hover(function() { 
+						
+						// Copys the navigation name and the "v" icon to the top of the dropdown
+						$(this).clone().prependTo("ul#navigation.dropdown .subnav");
+						$("ul#navigation.dropdown .subnav .subnav").remove();	
+						
+						// Slides the "subnav" on hover
+						$(this).find("ul.subnav").show();
+						
+						// On hover off
+						$("ul#navigation.dropdown ul.subnav").parent().hover(function() {  
+						}, function(){  
+							
+							// Hides the subnavigation when isn't on the "subnav" anymore
+							$(this).find("ul.subnav").stop(false, true).hide(); 
+							
+							// Removes the top part to prevent duplication
+							$("ul#navigation.dropdown .subnav .topnav").remove();
+						});  
+					});  
+			$('.popup').facebox();
+			$(".box_top h2").click(function(){
+				$(this).toggleClass("toggle_closed").parent().next().slideToggle("slow");
+				return false; //Prevent the browser jump to the link anchor
+			}); 
+			
+	})
+	</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?php if (!defined('THINK_PATH')) exit();?><link rel="stylesheet" href="PUBLIC_URL/js/kindeditor/themes/default/default.css" />
+<script charset="utf-8" src="PUBLIC_URL/js/kindeditor/kindeditor-min.js"></script>
+<script charset="utf-8" src="PUBLIC_URL/js/kindeditor/lang/zh_CN.js"></script>
+<script>
+var editor;
+KindEditor.ready(function(K) {
+	editor = K.create('textarea[name="content"]', {
+
+		uploadJson : 'PUBLIC_URL/js/kindeditor/php/upload_json.php',
+		items : [
+			'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+			'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+			'insertunorderedlist', '|', 'emoticons', 'image','insertfile', 'link']
+	});
+});
+</script>
+<textarea name="content" style="width:100%;height:200px;visibility:hidden;"><?php echo ($content); ?></textarea>

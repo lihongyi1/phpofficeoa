@@ -1,0 +1,81 @@
+<include file='../../Public/nav/Index.html'/>
+		<!-- Breadcrumb Bar: Start -->
+		<div id="breadcrumb">
+			
+			<!-- Breadcrumb: Start -->
+			<ul class="left">
+				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
+				<li class="icon point_right"><a href="__APP__">个人中心</a></li>
+				<li class="icon point_right"><a href="__APP__/AddressList/index">通讯录</a></li>
+			</ul>
+			<!-- Breadcrumb: End -->
+			<!-- Breadcrumb Icon Links: Start -->
+			<ul class="right">
+				<li><a href="javascript:void(0);" class="icon support tip" title="当前日期">当前日期：</a></li>
+				<li><a href="javascript:void(0);" id="datetime" title="当前日期" style="color: #B0B0B0">当前日期</a></li>
+				
+			</ul>
+			<!-- Breadcrumb Icon Links: End -->
+			
+		</div>
+		<!-- Breadcrumb Bar: End -->
+		
+	</div>
+	<!-- Header Grid Container: End -->
+	
+<include file="../../Public/nav/Personal.html"/>
+
+<!-- 75% Box Grid Container: Start -->
+<div class="grid_18">
+
+	<!-- Box Header: Start -->
+	<div class="box_top padding">
+		
+		<h2 class="icon user">{$user['realname']}的信息</h2>
+		
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content padding" >
+		<input type="hidden" value="{$user['userid']}" name="userid"/>
+		<div class='field'>
+		<label class='left'>姓名：</label>
+		<input name="realname" type="text" value="{$user['username']}" disabled="disabled"/>
+		</div>
+		<div class='field'>
+		<label class='left'>登录名：</label>
+		<input name="username" type="text" value="{$user['realname']}" disabled="disabled"/>
+		</div>
+		<div class='field'>
+		<label class='left'>手机号：</label>
+		<input name="mobile" type="text" disabled="disabled" value="{$user['mobile']}"/>
+		</div>
+		<div class='field'>
+		<label class='left'>部门：</label>
+		<input name="dept" type="text" value="{$user['deptname']['deptname']}" disabled="disabled"/>
+		</div>
+		<div class='field'>
+		<label class='left'>职务：</label>
+		<input name="position" type="text" value="{$user['positionname']['position']}" disabled="disabled"/>
+		</div>
+		<div class='field'>
+		<label class='left'>email：</label>
+		<input name="email" type="text" disabled="disabled" value="{$user['email']}"/>
+		</div>
+		<div class='field'>
+		<label class='left'>办公电话：</label>
+		<input name="tel" type="text" disabled="disabled" value="{$user['tel']}"/>
+		</div>
+		<div class='field'>
+		<label class='left'>办公地址：</label>
+		<input name="address" type="text" disabled="disabled" value="{$user['address']}"/>
+		</div>
+		
+	</div>
+	<!-- Box Content: End -->
+	
+</div>	
+<!-- 75% Box Grid Container: End -->
+
+<include file='../../Public/foot.html'/>
