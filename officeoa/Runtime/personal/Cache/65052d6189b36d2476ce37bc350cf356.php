@@ -202,7 +202,7 @@ $(function(){
 			            <li><a href="__ROOT__/info/index.php?s=/ElectronicInfo/index" class="icon pages">电子公告</a></li> 
 			            <li><a href="__ROOT__/info/index.php?s=/InterInfo/index" class="icon pages">内部通知</a></li> 
 			            <li><a href="__ROOT__/info/index.php?s=/DocumentInfo/index" class="icon pages">公文通知</a></li>
-			            <li><a href="tabs.html" class="icon pages">信息交流</a></li>
+			            <li><a href="__ROOT__/info/index.php?s=/Info/index" class="icon pages">信息交流</a></li>
 			            
 			        </ul>  
 			        <!-- Navigation Dropdown Menu Item Content: End --> 

@@ -1,0 +1,40 @@
+			<!-- Messages Popup Content: Start -->
+			<div class="box_content padding " id="messages" style="overflow: auto;height:400px">
+					<!-- Message From User: Start -->
+					<volist name='msgs' id="msg">
+					<h6>
+						<span class="icon user"></span> <a href="javascript:void(0)"><if condition="$msg['fromid']['userid'] eq $usersession['userid']">我<else/>{$msg['fromid']['realname']}</if></a> <span class="nobold">说：</span>
+						<small class="right grey nobold">{$msg.ctime}</small> 
+					</h6>
+					<p>
+						{$msg.content}
+					</p>
+					</volist>
+					<!-- Message From User: End -->
+					
+					<!-- Quick Reply: Start -->
+					<div class="field">
+						<label>
+							<span class="icon chatbubbles"></span>
+							回复
+						</label>
+						<textarea cols="30" rows="7" id="replyinbox"></textarea>
+					</div>
+				  
+				  <button class="replyinbox">发送</button>
+				  <button class="secondary" type="reset">重置</button>
+				  <!-- Quick Reply: End -->
+				  
+			</div>
+			<!-- Messages Popup Content: End -->
+<script>
+$('.replyinbox').click(function(){
+	var rid='{$rid}';
+	$.post(
+			"__APP__/Info/reply",
+			{'rid':rid,'content':$('#replyinbox').val()},
+			function(data){
+					alert(data);
+				})
+})
+</script>

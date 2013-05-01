@@ -1,0 +1,3173 @@
+[ 2013-04-25T09:10:17+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002568s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002849s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.129396s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001444s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.130824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087532s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.218394s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.219994s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.220574s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.221103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003334s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.221961s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2013-04-25T09:10:17+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:10:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002790s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042147s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001419s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047263s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.090787s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.092277s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.092929s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.093241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003133s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.094864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2013-04-25T09:10:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:11:11+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028996s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044626s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045366s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045760s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.045997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001919s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2013-04-25T09:11:11+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:12:54+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018497s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053613s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.072898s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.073708s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.074698s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.074991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002852s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.089043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2013-04-25T09:12:54+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:13:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001067s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.014740s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028931s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044294s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045539s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.045800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002086s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2013-04-25T09:13:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:13:24+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015654s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028974s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045340s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046098s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046576s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002156s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2013-04-25T09:13:24+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:14:29+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017953s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028606s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.047309s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.048045s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048456s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002018s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.049407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2013-04-25T09:14:29+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:15:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015357s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000591s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029492s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045511s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046256s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046729s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002056s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2013-04-25T09:15:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:15:25+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015888s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000593s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030245s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046847s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047578s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048057s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002103s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.049025s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2013-04-25T09:15:25+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:15:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015238s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001038s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029622s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045976s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046700s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047204s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002117s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2013-04-25T09:15:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:20:56+08:00 ] ERR: [4] syntax error, unexpected '[' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 390 行.
+[ 2013-04-25T09:20:56+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001284s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026247s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Undefined index:  class /var/www/html/officeoa/ThinkPHP/Common/functions.php 第 40 行.
+ERR: [8] Undefined index:  type /var/www/html/officeoa/ThinkPHP/Common/functions.php 第 40 行.
+ERR: [8] Undefined index:  file /var/www/html/officeoa/ThinkPHP/Common/functions.php 第 39 行.
+ERR: [8] Undefined index:  line /var/www/html/officeoa/ThinkPHP/Common/functions.php 第 39 行.
+
+[ 2013-04-25T09:21:08+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001158s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016008s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029952s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046864s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047599s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048092s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002300s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.049288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2013-04-25T09:21:08+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:21:34+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017305s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000931s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066410s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.084645s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.085484s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.086038s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.086291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002299s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.087122s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2013-04-25T09:21:34+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:21:51+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000865s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015040s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030532s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046259s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046940s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047365s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001929s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048269s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2013-04-25T09:21:51+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:38:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002807s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003780s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.052995s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001457s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.054480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086636s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.141086s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.142593s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.143207s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.143506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003050s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.144953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2013-04-25T09:38:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:38:40+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001135s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015901s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000647s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029117s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045708s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046467s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046971s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002153s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047989s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2013-04-25T09:38:40+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:38:47+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017167s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065731s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.083648s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.085290s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.086090s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.086378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003481s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.087253s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2013-04-25T09:38:47+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:40:33+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002908s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.048453s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002005s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.049857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050041s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.099880s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.101716s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.102203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003406s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.103572s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2013-04-25T09:40:33+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:41:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001009s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.014772s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029242s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044674s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045379s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045809s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2013-04-25T09:41:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:41:17+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018062s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055816s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.074713s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.076583s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.077240s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.077605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004518s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.079348s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2013-04-25T09:41:17+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:46:53+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020439s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053139s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053897s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054349s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002091s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055353s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2013-04-25T09:46:53+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:46:57+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.021362s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031105s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053145s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.054195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054723s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002460s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2013-04-25T09:46:57+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:46:57+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001224s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.010622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+
+[ 2013-04-25T09:46:57+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:47:02+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001038s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.033962s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001097s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.034996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030207s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065251s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.065891s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066266s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.066531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001826s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.067158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2013-04-25T09:47:02+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:47:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015497s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031038s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.047285s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.048245s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048923s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.049328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002729s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.050172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2013-04-25T09:47:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:47:52+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015850s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033448s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.049947s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.050569s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051082s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.051364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002020s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052045s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2013-04-25T09:47:52+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:47:55+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+
+[ 2013-04-25T09:47:55+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:49:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016163s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030480s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.047352s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.048174s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048615s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002117s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.049627s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2013-04-25T09:49:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:49:25+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017185s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030602s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.048532s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049327s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.049937s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.050208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002265s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.050942s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2013-04-25T09:49:25+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:49:29+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+
+[ 2013-04-25T09:49:29+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:49:32+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015111s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027982s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043883s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044549s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044972s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.045324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2013-04-25T09:49:32+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:50:02+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010080s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015273s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046023s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062152s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062971s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.063455s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002466s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.064764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2013-04-25T09:50:02+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:50:09+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+
+[ 2013-04-25T09:50:09+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:50:11+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2013-04-25T09:50:11+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:50:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000860s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+
+[ 2013-04-25T09:50:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:50:43+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016863s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028743s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046246s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047228s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047679s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002312s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2013-04-25T09:50:43+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:50:46+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+
+[ 2013-04-25T09:50:46+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:52:54+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010684s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 289 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 290 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 291 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 292 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060989s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.072305s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.072936s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.073360s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001907s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.074287s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2013-04-25T09:52:54+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/add
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:52:59+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.014776s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029815s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045238s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045986s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046491s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002091s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2013-04-25T09:52:59+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:53:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015583s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029570s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045787s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046504s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046971s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002005s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047850s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2013-04-25T09:53:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:53:18+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000914s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008381s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 289 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 290 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 291 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/bc4d4f666aaebd07825cdf78b29d5cc2.php 第 292 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023493s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032477s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033035s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033427s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001699s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034313s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2013-04-25T09:53:18+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/add
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:53:25+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/users/ids/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001260s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+ERR: [8] Undefined index:  ids /var/www/html/officeoa/apps/info/Lib/Action/InfoAction.class.php 第 24 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.090060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.091058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046195s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.137297s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.137914s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.138417s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.138664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001934s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.139303s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2013-04-25T09:53:25+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/users/ids/
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:53:31+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/doSend
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+
+[ 2013-04-25T09:53:31+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/doSend
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:53:31+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000892s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.014781s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029041s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044435s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045611s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002508s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047082s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2013-04-25T09:53:31+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:53:38+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004481s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+
+[ 2013-04-25T09:53:38+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:53:38+08:00 ] ERR: (ThinkException) 模板不存在[../info/Tpl/Info/view.html]
+[ 2013-04-25T09:53:38+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/view/id/5
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_template ] --START--
+ERR: [8] Undefined index:  class /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 79 行.
+ERR: [8] Undefined index:  type /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 79 行.
+ERR: [8] Undefined index:  class /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 79 行.
+ERR: [8] Undefined index:  type /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 79 行.
+ERR: [8] Undefined index:  file /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 78 行.
+ERR: [8] Undefined index:  line /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 78 行.
+ERR: [4096] Object of class InfoAction could not be converted to string /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 80 行.
+ERR: [8] Undefined index:  class /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 79 行.
+ERR: [8] Undefined index:  type /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 79 行.
+ERR: [8] Undefined index:  class /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 79 行.
+ERR: [8] Undefined index:  type /var/www/html/officeoa/ThinkPHP/Lib/Core/ThinkException.class.php 第 79 行.
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:53:45+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016534s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029194s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046518s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047349s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047884s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002351s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.049046s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2013-04-25T09:53:45+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:56:14+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000922s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017285s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000599s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030376s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.048358s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049068s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.049470s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.049897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002168s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.050661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2013-04-25T09:56:14+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:56:34+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018421s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030909s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.050060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.050822s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051273s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.051519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002106s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2013-04-25T09:56:34+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T09:56:46+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015685s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030920s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.047214s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047937s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048321s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001976s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.049293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2013-04-25T09:56:46+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:04:18+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+
+[ 2013-04-25T13:04:18+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/setread
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:04:18+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/view/id/9
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.067715s ]
+INFO: [ view_template ] --END-- [ RunTime:0.020356s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.088148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026271s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.114457s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.123665s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.124634s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.124976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011138s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.125678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2013-04-25T13:04:18+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/view/id/9
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:06:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+
+[ 2013-04-25T13:06:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:12:44+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+
+[ 2013-04-25T13:12:44+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:12:45+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001458s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+
+[ 2013-04-25T13:12:45+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:12:46+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001478s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+
+[ 2013-04-25T13:12:46+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:12:52+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001267s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+
+[ 2013-04-25T13:12:52+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:30:11+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002029s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 83 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+
+[ 2013-04-25T13:30:11+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:30:11+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 83 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+
+[ 2013-04-25T13:30:11+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004463s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 83 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 83 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006184s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 83 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 83 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 83 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 83 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+
+[ 2013-04-25T13:30:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:30:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000923s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 83 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+
+[ 2013-04-25T13:30:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+
+[ 2013-04-25T13:31:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:05+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002548s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+
+[ 2013-04-25T13:31:05+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:05+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+
+[ 2013-04-25T13:31:05+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002038s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000896s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+
+[ 2013-04-25T13:31:06+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:07+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+
+[ 2013-04-25T13:31:07+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:07+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+
+[ 2013-04-25T13:31:07+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:07+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.056841s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.056014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+
+[ 2013-04-25T13:31:07+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:07+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+
+[ 2013-04-25T13:31:07+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:07+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.032092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.032195s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+
+[ 2013-04-25T13:31:07+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:41+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+
+[ 2013-04-25T13:31:41+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+
+[ 2013-04-25T13:31:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:31:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+
+[ 2013-04-25T13:31:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+
+[ 2013-04-25T13:33:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+
+[ 2013-04-25T13:33:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:11+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001392s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2013-04-25T13:33:11+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+
+[ 2013-04-25T13:33:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000960s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+
+[ 2013-04-25T13:33:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+
+[ 2013-04-25T13:33:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+
+[ 2013-04-25T13:33:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001048s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+
+[ 2013-04-25T13:33:12+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000903s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003533s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041161s ]
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+
+[ 2013-04-25T13:33:13+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:35:08+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+
+[ 2013-04-25T13:35:08+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:35:09+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+
+[ 2013-04-25T13:35:09+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:35:46+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+ERR: [8] Undefined variable: 1 /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+ERR: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 86 行.
+
+[ 2013-04-25T13:35:46+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:35:54+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+
+[ 2013-04-25T13:35:54+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:02+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001009s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+
+[ 2013-04-25T13:41:02+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+
+[ 2013-04-25T13:41:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+
+[ 2013-04-25T13:41:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+
+[ 2013-04-25T13:41:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001476s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002429s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001128s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001142s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.015074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+
+[ 2013-04-25T13:41:04+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000889s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+
+[ 2013-04-25T13:41:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:41:39+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+
+[ 2013-04-25T13:41:39+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:35+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+
+[ 2013-04-25T13:42:35+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:36+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001169s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2013-04-25T13:42:36+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003397s ]
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.014631s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014739s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001324s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001361s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+
+[ 2013-04-25T13:42:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:50:14+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:50:14+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:50:15+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:50:15+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:50:15+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:50:15+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:50:33+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:50:33+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:19+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001046s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:19+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:20+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:20+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023116s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007161s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002745s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001108s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001176s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001058s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004167s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001118s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000905s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:21+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:22+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:22+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:22+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:22+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:22+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002584s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002861s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:22+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:22+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:22+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:22+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:22+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:40+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:40+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:40+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:40+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:41+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002567s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:41+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:41+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001114s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:41+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000889s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001051s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003825s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.049943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:42+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:52:43+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+ERR: [2] Missing argument 2 for InfoInfoApiModel::view() /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 82 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 84 行.
+ERR: [8] Undefined variable: replyid /var/www/html/officeoa/Api/Model/InfoInfoApiModel.class.php 第 85 行.
+
+[ 2013-04-25T13:52:43+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T13:53:00+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+
+[ 2013-04-25T13:53:00+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:18:47+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001810s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+
+[ 2013-04-25T14:18:47+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:18:48+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001239s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+
+[ 2013-04-25T14:18:48+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:19:35+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+
+[ 2013-04-25T14:19:35+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:23:47+08:00 ] ERR: [4] syntax error, unexpected '}', expecting ',' or ';' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 390 行.
+[ 2013-04-25T14:23:47+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.055353s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Undefined index:  class /var/www/html/officeoa/ThinkPHP/Common/functions.php 第 40 行.
+ERR: [8] Undefined index:  type /var/www/html/officeoa/ThinkPHP/Common/functions.php 第 40 行.
+ERR: [8] Undefined index:  file /var/www/html/officeoa/ThinkPHP/Common/functions.php 第 39 行.
+ERR: [8] Undefined index:  line /var/www/html/officeoa/ThinkPHP/Common/functions.php 第 39 行.
+
+[ 2013-04-25T14:24:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001128s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.092569s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000648s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.093217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.378404s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.471692s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.472616s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.473302s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.473634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003109s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.474965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2013-04-25T14:24:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:24:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018265s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000887s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033920s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053132s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053865s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054343s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002171s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2013-04-25T14:24:03+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:25:26+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017785s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033479s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.052007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052701s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.053224s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.053505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002098s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054248s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2013-04-25T14:25:26+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:26:16+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016782s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032852s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.050421s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.051587s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.052045s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002511s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053063s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2013-04-25T14:26:16+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:27:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+
+[ 2013-04-25T14:27:37+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:36:56+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001133s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+
+[ 2013-04-25T14:36:56+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:36:57+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001551s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+
+[ 2013-04-25T14:36:57+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T14:36:57+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+
+[ 2013-04-25T14:36:57+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/test
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T18:11:27+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001542s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001981s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.135195s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000788s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.136044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037960s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.174013s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.174823s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.175323s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.175716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002349s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.176527s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2013-04-25T18:11:27+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-25T18:11:53+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001260s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003982s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020570s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000639s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 197 行.
+ERR: [8] Use of undefined constant ElectronicInfo - assumed 'ElectronicInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 290 行.
+ERR: [8] Use of undefined constant InterInfo - assumed 'InterInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 291 行.
+ERR: [8] Use of undefined constant DocumentInfo - assumed 'DocumentInfo' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 292 行.
+ERR: [8] Use of undefined constant Info - assumed 'Info' /var/www/html/officeoa/Runtime/info/Cache/2bb62f6a4e4c9598d1c85df6b0fb0aee.php 第 293 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033331s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054635s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055338s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.055836s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002130s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.056879s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2013-04-25T18:11:53+08:00 ] 192.168.137.1 /apps/info/index.php?s=/Info/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+

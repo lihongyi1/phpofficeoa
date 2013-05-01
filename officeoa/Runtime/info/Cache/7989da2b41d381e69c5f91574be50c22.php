@@ -87,51 +87,6 @@ $(function(){
 			</ul>
 			<!-- Messages: End -->
 			
-			<!-- Messages Popup Content: Start -->
-			<div class="box_content padding hide" id="messages">
-				<form>	
-				  
-					<!-- Message From User: Start -->
-					<h6>
-						<span class="icon user"></span> <a href="#">Jenny</a> <span class="nobold">says</span>
-						<small class="right grey nobold">2 hours ago</small> 
-					</h6>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna 
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-					</p> 
-					<!-- Message From User: End -->
-					
-					<!-- Message From User: Start -->
-					<h6>
-						<span class="icon user"></span> <a href="#">Jenny</a> <span class="nobold">says</span>
-						<small class="right grey nobold">15 hours ago</small> 
-					</h6>
-					<p>
-						Sed do eiusmod tempor incididunt ut labore et dolore magna 
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-					</p>
-					<!-- Message From User: End -->
-					
-					<!-- Quick Reply: Start -->
-					<div class="field">
-						<label>
-							<span class="icon chatbubbles"></span>
-							Quick Reply
-						</label>
-						<textarea cols="50" rows="7"></textarea>
-					</div>
-				  
-				  <button>Send</button>
-				  <button class="secondary" type="reset">Reset</button>
-				  <button disabled="">Disabled Button</button>
-				  <!-- Quick Reply: End -->
-				  
-			    </form>
-			</div>
-			<!-- Messages Popup Content: End -->
-			
 			<!-- Style (Themes) Switcher: Start -->
 			<ul id="style" class="dropdown right">
 				<li class="topnav">
@@ -202,7 +157,7 @@ $(function(){
 			            <li><a href="__ROOT__/info/index.php?s=/ElectronicInfo/index" class="icon pages">电子公告</a></li> 
 			            <li><a href="__ROOT__/info/index.php?s=/InterInfo/index" class="icon pages">内部通知</a></li> 
 			            <li><a href="__ROOT__/info/index.php?s=/DocumentInfo/index" class="icon pages">公文通知</a></li>
-			            <li><a href="tabs.html" class="icon pages">信息交流</a></li>
+			            <li><a href="__ROOT__/info/index.php?s=/Info/index" class="icon pages">信息交流</a></li>
 			            
 			        </ul>  
 			        <!-- Navigation Dropdown Menu Item Content: End --> 
@@ -287,7 +242,7 @@ $(function(){
 				<?php if(MODULE_NAME == ElectronicInfo): ?><li><a href="__ROOT__/info/index.php?s=/ElectronicInfo/index" class='active'><span class="icon pages"></span>电子公告</a><?php else: ?><li><a href="__ROOT__/info/index.php?s=/ElectronicInfo/index"><span class="icon pages"></span>电子公告</a><?php endif; ?>
 				<?php if(MODULE_NAME == InterInfo): ?><li><a href="__ROOT__/info/index.php?s=/InterInfo/index" class='active'><span class="icon pages"></span>内部通知</a><?php else: ?><li><a href="__ROOT__/info/index.php?s=/InterInfo/index"><span class="icon pages"></span>内部通知</a><?php endif; ?>
 				<?php if(MODULE_NAME == DocumentInfo): ?><li><a href="__ROOT__/info/index.php?s=/DocumentInfo/index" class='active'><span class="icon pages"></span>公文通知</a><?php else: ?><li><a href="__ROOT__/info/index.php?s=/DocumentInfo/index"><span class="icon pages"></span>公文通知</a><?php endif; ?>
-				<?php if(MODULE_NAME == Working): ?><li><a href="__ROOT__/personal/index.php?s=/Working/index" class='active'><span class="icon pages"></span>信息交流</a><?php else: ?><li><a href="__ROOT__/personal/index.php?s=/Working/index"><span class="icon pages"></span>信息交流</a><?php endif; ?>
+				<?php if(MODULE_NAME == Info): ?><li><a href="__ROOT__/info/index.php?s=/Info/index" class='active'><span class="icon pages"></span>信息交流</a><?php else: ?><li><a href="__ROOT__/info/index.php?s=/Info/index"><span class="icon pages"></span>信息交流</a><?php endif; ?>
 			</ul>
 		<!-- Vertical Menu: End -->
 

@@ -83,54 +83,9 @@ $(function(){
 			<!-- Messages: Start -->
 			<ul class="messages">
 				<!-- Messages amount with Popup and Tip -->
-				<li><a href="#messages" class="newmsg tip popup" title="16 Messages"> <span>16</span></a></li>
+				<li><a href="__ROOT__/info/index.php?s=/Info/index" class="newmsg tip " title="信息"> <span><?php echo ($countmsg); ?></span></a></li>
 			</ul>
 			<!-- Messages: End -->
-			
-			<!-- Messages Popup Content: Start -->
-			<div class="box_content padding hide" id="messages">
-				<form>	
-				  
-					<!-- Message From User: Start -->
-					<h6>
-						<span class="icon user"></span> <a href="#">Jenny</a> <span class="nobold">says</span>
-						<small class="right grey nobold">2 hours ago</small> 
-					</h6>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna 
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-					</p> 
-					<!-- Message From User: End -->
-					
-					<!-- Message From User: Start -->
-					<h6>
-						<span class="icon user"></span> <a href="#">Jenny</a> <span class="nobold">says</span>
-						<small class="right grey nobold">15 hours ago</small> 
-					</h6>
-					<p>
-						Sed do eiusmod tempor incididunt ut labore et dolore magna 
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-					</p>
-					<!-- Message From User: End -->
-					
-					<!-- Quick Reply: Start -->
-					<div class="field">
-						<label>
-							<span class="icon chatbubbles"></span>
-							Quick Reply
-						</label>
-						<textarea cols="50" rows="7"></textarea>
-					</div>
-				  
-				  <button>Send</button>
-				  <button class="secondary" type="reset">Reset</button>
-				  <button disabled="">Disabled Button</button>
-				  <!-- Quick Reply: End -->
-				  
-			    </form>
-			</div>
-			<!-- Messages Popup Content: End -->
 			
 			<!-- Style (Themes) Switcher: Start -->
 			<ul id="style" class="dropdown right">
@@ -317,81 +272,97 @@ $(function(){
 	</div>
 	<!-- Box Header: End -->
 	
-	<!-- Box Content: Start -->
-	<div class="box_content padding">
-	<!-- News Table Tabs: Start -->
-		<div class="box_content" >
-			<div class="table_actions">
-					<div class="field ">
-					
-					<div class="button right" style="-moz-user-select: none;">
-					<span>
-						搜　　索
-					<button style="opacity: 0;" id="search">搜　　索</button>
-					</span>
-					</div>
-					<input type="text" class="right" id="searchinput" value="<?php echo ($keyword); ?>"/>　　
-					</div>
-					
-				</div>
-		
-			<!-- News Sorting Table: Start -->
-			<div >
-				
-				<table class="sorting">
-					<thead>
-						<tr>
-							<th class="checkers"><input type="checkbox" class="checkAll" /></th>
-							<th class="align_left center" style="width: 15%">发送人</th>
-							<th class="align_left center">发布时间</th>
-							<th class="align_left center tools">操作</th>
-						</tr>
-					</thead>
-					<tbody>
-						<?php if(empty($info['content'])){ ?>
-							<tr><td colspan="4" ><a>没有符合条件的搜索结果。</a></td></tr>
-						<?php } ?>
-						<?php if(is_array($info["content"])): $i = 0; $__LIST__ = $info["content"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$content): $mod = ($i % 2 );++$i;?><tr>
-								<th class="checkers"><input type="checkbox" class="checkOne" id="<?php echo ($content["eid"]); ?>"/></th>
-								<td class="align_left center"><a href="__ROOT__/personal/index.php?s=/AddressList/userInfo/uid/<?php echo ($content['uid']['userid']); ?>" ><?php echo ($content['uid']['realname']); ?></a></td>
-								<td class="align_left center"><?php echo ($content["date"]); ?></td>
-								<td class="align_left tools center">
-									<a href="__APP__/ElectronicInfo/look/eid/<?php echo ($content["eid"]); ?>" rel='facebox' class="view tip" title="查看">查看</a>
-									<a href="javascript:void(0)" class="delete tip" title="删除" >删除</a>
-								</td>
-							</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-						
-						
-					</tbody>
-				</table> 
-				
-				
-				<div class="table_actions">
-				<?php if(!empty($info['content'])){ ?>
-					
-					<input type="checkbox" class="checkAll" />　　
-					<div class="button" style="-moz-user-select: none;">
-					<span>
-						删除
-					<button style="opacity: 0;" id="deleteAll">删除</button>
-					</span>
-					</div>
-				<?php } ?>	
-				</div>
-				
-				<div  style="font-size: 12px" class="right">
-					<?php echo ($info['page']); ?>
-				</div>
-				
-				
-			</div>
-		</div>
-		<!-- News Table Tabs: End -->
+</div>	
+<!-- 25% Box Grid Container: Start -->
+<div class="grid_9">
+
+	<!-- Box Header: Start -->
+	<div class="box_top padding">
+		<h2 class="icon user">发件箱</h2>
 	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content " style="overflow: auto;height: 400px">
+		<table class="sorting">
+			<thead>
+				<tr>
+					<th class="align_left center" style="width: 15%">收送人</th>
+					<th class="align_left center">时间</th>
+					<th class="align_left center ">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php if(is_array($sends)): $i = 0; $__LIST__ = $sends;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$send): $mod = ($i % 2 );++$i;?><tr>
+						<td class="align_left center"><a href="__ROOT__/personal/index.php?s=/AddressList/userInfo/uid/<?php echo ($send['toid']['userid']); ?>/rid/" ><?php echo ($send['toid']['realname']); ?></a></td>
+						<td class="align_left center"><?php echo ($send["ctime"]); ?></td>
+						<td class="align_left  center">
+							<a href="javascript:void(0)" rel='facebox' name="outbox" class="view tip" title="查看" id="<?php echo ($send["replyid"]); ?>">查看</a>
+							<a href="javascript:void(0)" class="delete tip" title="删除" id="<?php echo ($send["id"]); ?>">删除</a>
+						</td>
+					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+				
+				
+			</tbody>
+		</table> 
+				
+		
+
+				
+				
+	</div>
+		<!-- News Table Tabs: End -->
 	<!-- Box Content: End -->
 
 </div>	
-<!-- 75% Box Grid Container: End -->
+<!-- 25% Box Grid Container: End -->
+
+<!-- 25% Box Grid Container: Start -->
+<div class="grid_9">
+
+	<!-- Box Header: Start -->
+	<div class="box_top ">
+		<h2 class="icon user">收件箱</h2>
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content " style="overflow: auto;height: 400px">
+		<table class="sorting">
+			<thead>
+				<tr>
+					<th class="align_left center" style="width: 15%">发送人</th>
+					<th class="align_left center">时间</th>
+					<th class="align_left center ">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php if(is_array($receives)): $i = 0; $__LIST__ = $receives;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$receive): $mod = ($i % 2 );++$i;?><tr>
+						<td class="align_left center"><a href="__ROOT__/personal/index.php?s=/AddressList/userInfo/uid/<?php echo ($receive['fromid']['userid']); ?>" ><?php echo ($receive['fromid']['realname']); ?></a></td>
+						<td class="align_left center"><?php echo ($receive["ctime"]); ?></td>
+						<td class="align_left  center">
+							<?php if($receive["isread"] == 0): ?><a href="javascript:void(0)" rel='facebox' name="inbox" title="查看" id="<?php echo ($receive["replyid"]); ?>"><span class="icon mail"></span></a>
+							<?php else: ?>
+							<a href="javascript:void(0)" rel='facebox' name="inbox" class="view tip" title="查看" id="<?php echo ($receive["replyid"]); ?>">查看</a><?php endif; ?>
+							
+							<a href="javascript:void(0)" class="delete tip" title="删除"  id="<?php echo ($receive['id']); ?>">删除</a>
+						</td>
+					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+				
+				
+			</tbody>
+		</table> 
+		
+				
+				
+	</div>
+		<!-- News Table Tabs: End -->
+	<!-- Box Content: End -->
+
+</div>	
+<!-- 25% Box Grid Container: End -->
+
+
 
 <!-- Footer Grid: Start -->
 <div class="grid_24" >
@@ -491,78 +462,35 @@ $(function(){
 </html>
 <script>
 $(function(){
-	$('a[rel=facebox]').facebox();
+	$(".sorting td a[name='inbox']").click(function(){
+			$this=$(this);
+			var id=$(this).next().attr('id');
+			$.post(
+					"__APP__/Info/setread",
+					{'id':id},
+					function(data){
+						//alert(data);
+						if(data==1){
+							$this.addClass('view tip');
+							$this.html('查看');
+						}		
+					})
+	       	$.facebox({ajax:'__APP__/Info/viewinbox/rid/'+$(this).attr('id')});
+		})
+	$(".sorting td a[name='outbox']").click(function(){
+	       	$.facebox({ajax:'__APP__/Info/viewoutbox/rid/'+$(this).attr('id')});
+		})
 	$('.delete.tip').click(function(){
-			if(confirm('确认删除该条公告？')){
-			var id=$(this).parents('tr').find(':checkbox').attr('id');
+		$this=$(this);
 			$.post(
-					"__APP__/ElectronicInfo/delete",
-					{'eid':id},
+					"__APP__/Info/delete",
+					{'id':$(this).attr('id')},
 					function(data){
-						if(data=='success'){
-								window.location.reload(true);
-							}else{
-								alert('操作失败，请重试');
+							if(data=='success'){
+									$this.parents('tr').remove();
 								}
-					}
-					)
-			}
-	})
-	$('.checkAll').click(function(){
-			if(this.checked){
-				$(':checkbox').prop('checked',true);
-			}else{
-				$(':checkbox').removeProp('checked');
-			}
+						})
 		})
-	$('.checkOne').click(function(){
-			if(this.checked){
-				$(this).prop('checked',true);
-			}else{
-				$(this).removeProp('checked');
-				$('.checkAll').removeProp('checked');
-				}
-			var flag=true;
-			$('.checkOne').each(function(){
-					if(!$(this).prop('checked')){
-						flag=false;
-						return;
-					}
-				})
-			if(flag){
-				$(':checkbox').prop('checked',true);
-				}
-		//	alert($('.checkOne :checked').length);
-		})
-	$('#deleteAll').click(function(){
-			if(confirm('确认删除所选公告？')){
-			var ids=new Array();
-			$('.checkOne').each(function(){
-					if($(this).prop('checked')){
-							ids.push($(this).attr('id'));
-						}
-				})
-			if(ids.length==0){
-					alert('请选择要删除的公告');
-					return ;
-				}
-			$.post(
-					"__APP__/ElectronicInfo/deleteAll",
-					{'ids[]':ids},
-					function(data){
-							if(data=='error'){
-								alert('操作失败，请重试');
-								}else{
-									alert('操作成功');
-									window.location.reload(true);
-									}
-						}
-					)
-			}
-		})
-	$('#search').click(function(){
-			window.location.href="__APP__/ElectronicInfo/search/keyword/"+$('#searchinput').val();
-			
-		})
+	
 })
 </script>

@@ -10,6 +10,8 @@ class MyMode extends Action{
 	public function sA(){
 		$this->usersession=$_SESSION['usersession']['user'];
 		$this->assign('usersession',$this->usersession);
+		$countmsg=$this->api->InfoInfo_getcount($this->usersession['userid']);
+		$this->assign('countmsg',$countmsg);
 	}
 	
 	/**

@@ -4,6 +4,10 @@ class InfoAction extends BaseAction {
 	   		parent::base();
 	}
     public function index(){
+    	$send=$this->api->InfoInfo_getsend($this->usersession['userid']);
+    	$receive=$this->api->InfoInfo_getreceice($this->usersession['userid']);
+    	$this->assign('sends',$send);
+    	$this->assign('receives',$receive);
     	$this->display();
     }
     public function add(){
@@ -37,8 +41,8 @@ class InfoAction extends BaseAction {
     		$html.=in_array(intval($user['userid']),$ids)?' checked="checked" ':" ";
     		$html.='id="'.intval($user['userid']).'"/></td>';
     		$html.='<td>'.htmlspecialchars($user["deptname"]['deptname']).'</td>';
-    		$html.='<td><a href="'.__APP__.'/AddressList/userInfo/uid/'.intval($user['userid']).'">'.htmlspecialchars($user["realname"]).'</a></td>';
-    		$html.='<td>'.htmlspecialchars($user['username']).'</td>';
+    		$html.='<td><a class="realname" href="'.__APP__.'/AddressList/userInfo/uid/'.intval($user['userid']).'">'.htmlspecialchars($user["realname"]).'</a></td>';
+    		$html.='<td class="username">'.htmlspecialchars($user['username']).'</td>';
     		$html.='<td>'.htmlspecialchars($user["position"]['position']).'</td>';
     		$html.='</tr>';
     	}
@@ -69,5 +73,87 @@ class InfoAction extends BaseAction {
     		$html='<tr><td colspan="5" align="center"><a>没有符合条件的搜索结果。</a></td></tr>';
     	}
     	echo $html;
+    }
+    
+    
+    /**
+       * ++++++++++++++++++
+       * @date: 2013-4-23
+       * @author: lihongyi
+       * @return:发送信息
+       * 
+       * ++++++++++++++++++
+    */
+    public function doSend(){
+    	$info=htmlspecialchars($_POST['content']);
+    	$ids=$_POST['ids'];
+    	$data['content']=$info;
+    	$data['fromid']=intval($this->usersession['userid']);
+    	$data['ctime']=date('Y-m-d h:i:s');
+    	foreach($ids as $id){
+    		$data['toid']=intval($id);
+    		$res=$this->api->InfoInfo_sendInfo($data);
+    	}
+    }
+    
+    
+    /**
+       * ++++++++++++++++++
+       * @date: 2013-4-23
+       * @author: lihongyi
+       * @return:查看收消息
+       * 
+       * ++++++++++++++++++
+    */
+    public function viewinbox(){
+    	$rid=intval($_GET['rid']);
+    	$uid=intval($this->usersession['userid']);
+    	$data=$this->api->InfoInfo_view($rid,$uid);
+    	$this->assign('msgs',$data);
+    	$this->assign('rid',$rid);
+    	$this->display();
+    }
+    
+ 	public function viewoutbox(){
+    	$rid=intval($_GET['rid']);
+    	$uid=intval($this->usersession['userid']);
+    	$data=$this->api->InfoInfo_view($rid,$uid);
+    	$this->assign('msgs',$data);
+    	$this->assign('rid',$rid);
+    	$this->display();
+    }
+    
+    public function setread(){
+    	$id=intval($_POST['id']);
+    	$res=$this->api->InfoInfo_setRead($id);
+    	echo $res;
+    }
+    public function delete()
+    {
+    	$id=intval($_POST['id']);
+    	$uid=intval($this->usersession['userid']);
+    	$res=$this->api->InfoInfo_delete($id,$uid);
+    	if(empty($res)){
+    		echo 'error';
+    	}else{
+    		echo 'success';
+    	}
+    }
+
+	public function reply(){
+		$rid=intval($_POST['rid']);
+		$uid=intval($this->usersession['userid']);
+		$content=htmlspecialchars($_POST['content']);
+		$res=$this->api->InfoInfo_reply($rid,$uid,$content);
+		if(empty($res)){
+			echo 'error';
+		}else{
+			echo 'success';
+		}
+		
+	}   
+    public function test(){
+    	$send=$receive=$this->api->InfoInfo_getreceice($this->usersession['userid']);
+    	dump($send);
     }
 }

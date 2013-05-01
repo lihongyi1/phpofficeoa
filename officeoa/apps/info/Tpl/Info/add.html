@@ -111,6 +111,17 @@ $(function(){
 					alert('请填写信息内容');
 					return;
 				}
+			var ids=new Array();
+			$('.sorting tr :hidden').each(function(){
+					ids.push($(this).val());
+			})
+			$.post(
+					'__APP__/Info/doSend',
+					{'content':$.trim($('#content').val()),'ids[]':ids},
+					function(data){
+						window.location.href='__APP__/Info/index';
+					})
+
 		})
 	
 })

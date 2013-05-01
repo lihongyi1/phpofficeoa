@@ -87,51 +87,6 @@ $(function(){
 			</ul>
 			<!-- Messages: End -->
 			
-			<!-- Messages Popup Content: Start -->
-			<div class="box_content padding hide" id="messages">
-				<form>	
-				  
-					<!-- Message From User: Start -->
-					<h6>
-						<span class="icon user"></span> <a href="#">Jenny</a> <span class="nobold">says</span>
-						<small class="right grey nobold">2 hours ago</small> 
-					</h6>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna 
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-					</p> 
-					<!-- Message From User: End -->
-					
-					<!-- Message From User: Start -->
-					<h6>
-						<span class="icon user"></span> <a href="#">Jenny</a> <span class="nobold">says</span>
-						<small class="right grey nobold">15 hours ago</small> 
-					</h6>
-					<p>
-						Sed do eiusmod tempor incididunt ut labore et dolore magna 
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-					</p>
-					<!-- Message From User: End -->
-					
-					<!-- Quick Reply: Start -->
-					<div class="field">
-						<label>
-							<span class="icon chatbubbles"></span>
-							Quick Reply
-						</label>
-						<textarea cols="50" rows="7"></textarea>
-					</div>
-				  
-				  <button>Send</button>
-				  <button class="secondary" type="reset">Reset</button>
-				  <button disabled="">Disabled Button</button>
-				  <!-- Quick Reply: End -->
-				  
-			    </form>
-			</div>
-			<!-- Messages Popup Content: End -->
-			
 			<!-- Style (Themes) Switcher: Start -->
 			<ul id="style" class="dropdown right">
 				<li class="topnav">

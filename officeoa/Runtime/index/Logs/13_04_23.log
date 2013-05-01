@@ -1,0 +1,330 @@
+[ 2013-04-23T14:35:09+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.016323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.016789s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.014634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008658s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.669129s ]
+INFO: [ view_template ] --END-- [ RunTime:0.017510s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.686732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042186s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.728892s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.729449s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.731012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.731300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003075s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.732114s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2013-04-23T14:35:09+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T14:35:18+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/dologin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.047080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.047413s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.013866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007056s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+
+[ 2013-04-23T14:35:18+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/dologin
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T14:35:19+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003740s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.194325s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015187s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 197 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.210570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200715s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.410298s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.411190s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.411682s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.411946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002229s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.430548s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2013-04-23T14:35:19+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Index/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T15:20:38+08:00 ] 192.168.137.1 /apps/index/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.111449s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 197 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.112185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031058s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.143288s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.143951s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.144586s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.144831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.145620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2013-04-23T15:20:38+08:00 ] 192.168.137.1 /apps/index/index.php
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T15:20:38+08:00 ] 192.168.137.1 /apps/index/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.097253s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000599s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 197 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.097895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028802s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.126741s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.127481s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.128020s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.128264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002101s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.129069s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2013-04-23T15:20:38+08:00 ] 192.168.137.1 /apps/index/index.php
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T15:20:43+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Index/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T15:20:43+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009050s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010481s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020151s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020587s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020946s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001880s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2013-04-23T15:20:43+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T15:20:48+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/dologin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+
+[ 2013-04-23T15:20:48+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/dologin
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T15:20:48+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012710s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 197 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049084s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062669s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.063324s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.063759s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001871s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.064794s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2013-04-23T15:20:48+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Index/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T15:29:42+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002901s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037275s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001261s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.038612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034610s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.073197s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.073777s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.074839s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.075099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002595s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.075914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2013-04-23T15:29:42+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T15:29:49+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/dologin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+
+[ 2013-04-23T15:29:49+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/dologin
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T15:29:49+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010177s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 197 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041603s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.052514s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055722s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.056140s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004585s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2013-04-23T15:29:49+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Index/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T22:24:19+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.035784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.036841s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.009798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010247s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.335012s ]
+INFO: [ view_template ] --END-- [ RunTime:0.054537s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.389726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139428s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.529070s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.536419s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.537285s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.538372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010751s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.540025s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003159s ]
+
+[ 2013-04-23T22:24:19+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T22:24:28+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/dologin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003362s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+ERR: [8] Undefined index:  usersession /var/www/html/officeoa/ThinkPHP/Extend/Mode/MyMode/MyMode.class.php 第 11 行.
+
+[ 2013-04-23T22:24:28+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Login/dologin
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T22:24:28+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006356s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.065929s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011987s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/index/Cache/9307b3b8376c2b917711f844ace5a114.php 第 197 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.078506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114900s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.193119s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.193785s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.194256s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.194490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002013s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.195357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2013-04-23T22:24:28+08:00 ] 192.168.137.1 /apps/index/index.php?s=/Index/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+

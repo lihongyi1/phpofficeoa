@@ -120,7 +120,6 @@
 					//	if($('.sorting tr :hidden').val())
 						var id=$(this).attr("id");
 						if($.inArray(id,ids)==-1){
-						
 						var realname=$(this).parents('tr').find('.realname').html();
 						var username=$(this).parents('tr').find('.username').html();
 						$('.sorting tbody').append('<tr><td ><input type="hidden" value="'+id+'"/><span class="icon user"></span><a href="__ROOT__/personal/index.php?s=/AddressList/userInfo/uid/'+id+'" target="_blank">'+realname+'('+username+')</a></td><td><a href="javascript:void(0)" class="delete tip new" title="删除">删除</a></td></tr>');

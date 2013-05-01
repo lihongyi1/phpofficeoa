@@ -1,0 +1,80 @@
+[ 2013-04-23T16:54:01+08:00 ] 192.168.137.1 /apps/personal/index.php?s=/AddressList/userInfo/uid/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T16:54:01+08:00 ] 192.168.137.1 /apps/personal/index.php?s=/UserInfo/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001236s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015607s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000629s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/personal/Cache/94a574c5f9bf91d0f128e72ff107d23a.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/personal/Cache/94a574c5f9bf91d0f128e72ff107d23a.php 第 197 行.
+ERR: [8] Use of undefined constant UserInfo - assumed 'UserInfo' /var/www/html/officeoa/Runtime/personal/Cache/94a574c5f9bf91d0f128e72ff107d23a.php 第 289 行.
+ERR: [8] Use of undefined constant AddressList - assumed 'AddressList' /var/www/html/officeoa/Runtime/personal/Cache/94a574c5f9bf91d0f128e72ff107d23a.php 第 290 行.
+ERR: [8] Use of undefined constant Working - assumed 'Working' /var/www/html/officeoa/Runtime/personal/Cache/94a574c5f9bf91d0f128e72ff107d23a.php 第 291 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029779s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046137s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046848s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047421s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002248s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048759s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2013-04-23T16:54:01+08:00 ] 192.168.137.1 /apps/personal/index.php?s=/UserInfo/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T16:55:22+08:00 ] 192.168.137.1 /apps/personal/index.php?s=/AddressList/userInfo/uid/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001063s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
+[ 2013-04-23T16:55:22+08:00 ] 192.168.137.1 /apps/personal/index.php?s=/UserInfo/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012019s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+ERR: [8] Use of undefined constant personal - assumed 'personal' /var/www/html/officeoa/Runtime/personal/Cache/94a574c5f9bf91d0f128e72ff107d23a.php 第 181 行.
+ERR: [8] Use of undefined constant info - assumed 'info' /var/www/html/officeoa/Runtime/personal/Cache/94a574c5f9bf91d0f128e72ff107d23a.php 第 197 行.
+ERR: [8] Use of undefined constant UserInfo - assumed 'UserInfo' /var/www/html/officeoa/Runtime/personal/Cache/94a574c5f9bf91d0f128e72ff107d23a.php 第 289 行.
+ERR: [8] Use of undefined constant AddressList - assumed 'AddressList' /var/www/html/officeoa/Runtime/personal/Cache/94a574c5f9bf91d0f128e72ff107d23a.php 第 290 行.
+ERR: [8] Use of undefined constant Working - assumed 'Working' /var/www/html/officeoa/Runtime/personal/Cache/94a574c5f9bf91d0f128e72ff107d23a.php 第 291 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026623s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.039356s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040073s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040587s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001971s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041492s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2013-04-23T16:55:22+08:00 ] 192.168.137.1 /apps/personal/index.php?s=/UserInfo/index
+ERR: [8] Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG' /var/www/html/officeoa/define.inc.php 第 6 行.
+
