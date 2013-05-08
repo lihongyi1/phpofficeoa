@@ -49,12 +49,17 @@
 				
 				<!-- Navigation Dropdown Menu Item: Start -->
 				<li class="topnav">
-					<a class="frames" href="#">流转中心</a>
+				<if condition='APP_NAME eq flow'>
+					<a  class="frames active" href="__ROOT__/flow/index.php?s=/Index/index">流转中心</a>
+					<else/>
+					<a class="frames" href="__ROOT__/flow/index.php?s=/Index/index">流转中心</a>
+				</if>
 					
 					<!-- Navigation Dropdown Menu Item Content: Start -->
 					<ul class="subnav">
-						<li><a href="typography.html" class="icon typography">电子流</a></li> 
-			            <li><a href="grid.html" class="icon blocks">新建电子流</a></li>  
+						<li><a href="__ROOT__/flow/index.php?s=/Flow/index" class="icon typography">电子流</a></li> 
+						 <li><a href="__ROOT__/flow/index.php?s=/Flow/index" class="icon blocks">与我有关</a></li> 
+			            <li><a href="__ROOT__/flow/index.php?s=/Flow/addflow" class="icon blocks">新建电子流</a></li>  
 			        </ul> 
 			        <!-- Navigation Dropdown Menu Item Content: End --> 
 				</li>

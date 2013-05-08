@@ -5,8 +5,7 @@
 			<!-- Breadcrumb: Start -->
 			<ul class="left">
 				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
-				<li class="icon point_right"><a href="__APP__">信息中心</a></li>
-				<li class="icon point_right"><a href="__APP__/InterInfo/index">公文通知</a></li>
+				<li class="icon point_right"><a href="__APP__/Flow/index">流转中心</a></li>
 			</ul>
 			<!-- Breadcrumb: End -->
 			<!-- Breadcrumb Icon Links: Start -->
@@ -23,21 +22,20 @@
 	</div>
 	<!-- Header Grid Container: End -->
 	
-<include file="../../Public/nav/Info.html"/>
-
-<!-- 75% Box Grid Container: Start -->
+<include file="../../Public/nav/Flow.html"/>
+<!-- 750% Box Grid Container: Start -->
 <div class="grid_18">
 
 	<!-- Box Header: Start -->
 	<div class="box_top padding">
 		
-		<h2 class="icon user">公文通知</h2>
+		<h2 class="icon user">流转中心</h2>
 		<ul class="sorting">
 		<li>
-		<a class="" href="__APP__/DocumentInfo/index">列表</a>
+		<a class="" href="__APP__/Flow/index">电子流列表</a>
 		</li>
 		<li>
-		<a class="active" href="javascript:void(0)">添加</a>
+		<a class="active" href="javascript:void(0)">申请</a>
 		</li>
 		</ul>
 	</div>
@@ -46,13 +44,16 @@
 	<!-- Box Content: Start -->
 	<div class="box_content padding">
 		<div class="field">
-		<label class="left" >通知标题:</label>
-		<input type="text" id="title" value="{$info.title}"/>
+		<label class="left" >流程名称: {$info.title}</label>
+		<label class="left"><a id="{$info.lid}" name="look" href="javascript:void(0)" >查看模板</a></label>
 		</div>
-		<input type="hidden" value="{$info['eid']}" id="eid"/>
 		<div class="field">
-		<label >通知内容:</label>
-		{:W('Editor',array('content'=>$info['content']))}
+		<label class="left" >主  题:</label>
+		<input type="text" id="title" value=""/>
+		</div>
+		<div class="field">
+		<label class="left" >申请说明:</label>
+		{:W('Editor',array())}
 		</div>
 		<div class="field" align="center">
 			<div class="button" style="-moz-user-select: none;">
@@ -70,43 +71,33 @@
 		</div>
 	</div>
 	<!-- Box Content: End -->
-	
-</div>	
-<!-- 75% Box Grid Container: End -->
 
+</div>	
+<!-- 100% Box Grid Container: End -->
 <include file='../../Public/foot.html'/>
 <script>
 $(function(){
 	$('#submit').click(function(){
 		var title=$.trim($('#title').val());
 		var content=$.trim($('.ke-edit-iframe').contents().find('.ke-content').html());
-		if(title==""||title==null){
-			alert('通告标题不能为空');
+		if(!title){
+				alert('请填写主题');
+				return;
+			}
+		if(!content){
+			alert('请填写申请说明');
 			return;
 		}
-		if(content==""||content=='<br>'){
-			alert('通告内容不能为空');
-			return;
-		}
+		var lid='{$info.lid}';
 		$.post(
-				"__APP__/DocumentInfo/doAddInfo",
-				{'title':title,'content':content},
+				"__APP__/Flow/doapply",
+				{'lid':lid,'title':title,'content':content},
 				function(data){
-					//alert(data);
-					if(data=='error'){
-						alert('操作失败，请重试');
-						}else{
-							alert('操作成功');
-							window.location.href='__APP__/DocumentInfo/index';
-							}
-					
-				}
-				)
+					window.location.href='__APP__/Flow/myapply';
+					})
 		})
-	$('#reset').click(function(){
-		$('#title').val("");
-		$('.ke-edit-iframe').contents().find('.ke-content').html("")
+	$('a[name="look"]').click(function(){
+		$.facebox({ajax:'__APP__/Flow/look/lid/'+$(this).attr('id')});
 		})
-	
 })
 </script>

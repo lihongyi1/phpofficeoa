@@ -1,0 +1,108 @@
+<include file='../../Public/nav/Index.html'/>
+		<!-- Breadcrumb Bar: Start -->
+		<div id="breadcrumb">
+			
+			<!-- Breadcrumb: Start -->
+			<ul class="left">
+				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
+				<li class="icon point_right"><a href="__APP__/Flow/index">流转中心</a></li>
+			</ul>
+			<!-- Breadcrumb: End -->
+			<!-- Breadcrumb Icon Links: Start -->
+			<ul class="right">
+				<li><a href="#" class="icon support tip" title="当前日期">当前日期：</a></li>
+				<li><a href="#" id="datetime" title="当前日期" style="color: #B0B0B0">当前日期</a></li>
+				
+			</ul>
+			<!-- Breadcrumb Icon Links: End -->
+			
+		</div>
+		<!-- Breadcrumb Bar: End -->
+		
+	</div>
+	<!-- Header Grid Container: End -->
+	
+<include file="../../Public/nav/Flow.html"/>
+<!-- 750% Box Grid Container: Start -->
+<div class="grid_18">
+
+	<!-- Box Header: Start -->
+	<div class="box_top padding">
+		
+		<h2 class="icon user">流转中心</h2>
+		<ul class="sorting">
+		<li>
+		<a class="active" href="__APP__/Flow/index">电子流列表</a>
+		</li>
+		<li>
+		<a class="" href="__APP__/Flow/addflow">新建电子流</a>
+		</li>
+		</ul>
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content padding">
+	<!-- News Table Tabs: Start -->
+		<div class="box_content" >
+		
+			<!-- News Sorting Table: Start -->
+			<div >
+				
+				<table class="sorting">
+					<thead>
+						<tr>
+							<th class="align_left" style="width: 30%">流程名称</th>
+							<th class="align_left center">用途说明</th>
+							<th class="align_left center tools">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<php>if(empty($lists)){</php>
+							<tr><td colspan="3" ><a href="__APP__/Flow/addflow">没有相关电子流。</a></td></tr>
+						<php>}</php>
+						<volist name="lists" id="list">
+							<tr>
+								<td class="align_left"><a href="{$list.lid}">{$list.title}</a></td>
+								<td class="align_left center"> {$list.descb} </td>
+								<td class="align_left tools center">
+									<a href="__APP__/Flow/apply/lid/{$list.lid}"  class="view tip" title="申请">申请</a>
+									<a id="{$list.lid}" class="edit tip" title="编辑">编辑</a>
+									<a href="javascript:void(0)" class="delete tip" title="删除" id="{$list.lid}">删除</a>
+								</td>
+							</tr>
+						</volist>
+						
+					</tbody>
+				</table> 
+				
+			</div>
+		</div>
+		<!-- News Table Tabs: End -->
+	</div>
+	<!-- Box Content: End -->
+
+</div>	
+<!-- 100% Box Grid Container: End -->
+
+<include file='../../Public/foot.html'/>
+<script>
+$(function(){
+	$('.sorting .delete').click(function(){
+			$.post(
+					"__APP__/Flow/deltemplate",
+					{'id':$(this).attr('id')},
+					function(data){
+							if(data=='success'){
+								alert('操作成功');
+								window.location.reload();
+							}else{
+									alert('操作失败，请重试');
+								}
+						})
+		})
+	$('.sorting .edit').click(function(){
+			window.location.href="__APP__/Flow/editflow/lid/"+$(this).attr('id');
+		})
+})
+</script>

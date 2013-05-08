@@ -35,10 +35,10 @@
 		<h2 class="icon user">公文通知</h2>
 		<ul class="sorting">
 		<li>
-		<a class="active" href="__APP__/InterInfo/index">列表</a>
+		<a class="active" href="__APP__/DocumentInfo/index">列表</a>
 		</li>
 		<li>
-		<a class="" href="__APP__/InterInfo/addInfo">添加</a>
+		<a class="" href="__APP__/DocumentInfo/addInfo">添加</a>
 		</li>
 		</ul>
 	</div>
@@ -83,13 +83,13 @@
 						<volist name='info["content"]' id='content'>
 							<tr>
 								<th class="checkers"><input type="checkbox" class="checkOne" id="{$content.eid}"/></th>
-								<td class="align_left"><a href="__APP__/InterInfo/lookup/eid/{$content.eid}">{$content.title}</a></td>
+								<td class="align_left"><a href="__APP__/DocumentInfo/lookup/eid/{$content.eid}">{$content.title}</a></td>
 								<td class="align_left center"><a href="__ROOT__/personal/index.php?s=/AddressList/userInfo/uid/{$content['uid']['userid']}" >{$content['uid']['realname']}</a></td>
 								<td class="align_left center"> {$content.click} </td>
 								<td class="align_left center">{$content.date}</td>
 								<td class="align_left tools center">
-									<a href="__APP__/InterInfo/look/eid/{$content.eid}" rel='facebox' class="view tip" title="查看">查看</a>
-									<a href="__APP__/InterInfo/edit/eid/{$content.eid}" class="edit tip" title="编辑">编辑</a>
+									<a href="__APP__/DocumentInfo/look/eid/{$content.eid}" rel='facebox' class="view tip" title="查看">查看</a>
+									<a href="__APP__/DocumentInfo/edit/eid/{$content.eid}" class="edit tip" title="编辑">编辑</a>
 									<a href="javascript:void(0)" class="delete tip" title="删除" >删除</a>
 								</td>
 							</tr>
@@ -135,7 +135,7 @@ $(function(){
 			if(confirm('确认删除该条通知？')){
 			var id=$(this).parents('tr').find(':checkbox').attr('id');
 			$.post(
-					"__APP__/InterInfo/delete",
+					"__APP__/DocumentInfoInfo/delete",
 					{'eid':id},
 					function(data){
 						if(data=='success'){
@@ -186,7 +186,7 @@ $(function(){
 					return ;
 				}
 			$.post(
-					"__APP__/InterInfo/deleteAll",
+					"__APP__/DocumentInfo/deleteAll",
 					{'ids[]':ids},
 					function(data){
 							if(data=='error'){

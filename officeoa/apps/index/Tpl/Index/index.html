@@ -40,7 +40,7 @@
 	<div class="box_top">
 		
 		<h2 class="icon pages">电子公告</h2>
-		 <span style="margin-left: 60%;font-size: 14px" > <a href="#" style="color: #FFFFFF">more</a></span>
+		 <span style="margin-left: 60%;font-size: 14px" > <a href="__ROOT__/info/index.php?s=/ElectronicInfo/index" style="color: #FFFFFF">more</a></span>
 	</div>
 	<!-- Box Header: End -->
 	
@@ -50,55 +50,12 @@
 		<!-- Simple Sorting Table: Start -->
 		<div class="accordion">
 			
-			<h5><a href="#">Section 1</a></h5>
+			<volist name="ele" id="e">
+			<h5><a href="#">{$e.title}</a></h5>
 			<div>
-				<p>
-					Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-					Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-					ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-					lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-				</p>
-				<ul>
-					<li>List item one</li>
-					<li>List item two</li>
-					<li>List item three</li>
-				</ul>
+				{$e.content|htmlspecialchars_decode=###,ENT_QUOTES}
 			</div>
-			
-			<h5><a href="#">Section 2</a></h5>
-			<div>
-				<p>
-				Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-				purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-				velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-				suscipit faucibus urna.
-				</p>
-			</div>
-			
-			<h5><a href="#">Section 3</a></h5>
-			<div>
-				<p>
-					Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-					ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-					amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-					odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-				</p>
-			</div>
-			
-			<h5><a href="#">Section 4</a></h5>
-			<div>
-				<p>
-					Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-					et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-					faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-					mauris vel est.
-				</p>
-				<p>
-					Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-					Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-					inceptos himenaeos.
-				</p>
-			</div>
+			</volist>
 			
 		</div>
 		<!-- Simple Sorting Table: End -->
@@ -116,7 +73,7 @@
 	<div class="box_top">
 		
 		<h2 class="icon pages">内部通知 </h2>
-		<span style="margin-left: 60%;font-size: 14px" > <a href="#" style="color: #FFFFFF">more</a></span>
+		<span style="margin-left: 60%;font-size: 14px" > <a href="__ROOT__/info/index.php?s=/InterInfo/index" style="color: #FFFFFF">more</a></span>
 	</div>
 	<!-- Box Header: End -->
 	
@@ -125,57 +82,12 @@
 		
 		<!-- Simple Sorting Table: Start -->
 		<div class="accordion">
-			
-			<h5><a href="#">Section 1</a></h5>
-			<div>
-				<p>
-					Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-					Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-					ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-					lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-				</p>
-				<ul>
-					<li>List item one</li>
-					<li>List item two</li>
-					<li>List item three</li>
-				</ul>
-			</div>
-			
-			<h5><a href="#">Section 2</a></h5>
-			<div>
-				<p>
-				Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-				purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-				velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-				suscipit faucibus urna.
-				</p>
-			</div>
-			
-			<h5><a href="#">Section 3</a></h5>
-			<div>
-				<p>
-					Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-					ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-					amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-					odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-				</p>
-			</div>
-			
-			<h5><a href="#">Section 4</a></h5>
-			<div>
-				<p>
-					Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-					et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-					faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-					mauris vel est.
-				</p>
-				<p>
-					Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-					Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-					inceptos himenaeos.
-				</p>
-			</div>
-			
+			<volist name="inter" id="i">
+				<h5><a href="#">{$i.title}</a></h5>
+				<div>
+					{$i.content|htmlspecialchars_decode=###,ENT_QUOTES}
+				</div>
+			</volist>
 		</div>
 		<!-- Simple Sorting Table: End -->
 
@@ -193,7 +105,7 @@
 	<div class="box_top">
 		
 		<h2 class="icon graph">公文通知</h2>
-		<span style="margin-left: 80%;font-size: 14px" > <a href="#" style="color: #FFFFFF">more</a></span>
+		<span style="margin-left: 80%;font-size: 14px" > <a href="__ROOT__/info/index.php?s=/DocumentInfo/index" style="color: #FFFFFF">more</a></span>
 	</div>
 	<!-- Box Header: End -->
 	
@@ -202,47 +114,15 @@
 		
 		<!-- Stats Table: Start -->
 		<table>
-			
-			<tr>
-				<td>
-					<span class="icon pictures"></span>
-					<a href="#">Administrator</a> added the image <a href="#">My Kitten</a> to the <a href="#">Cats</a> gallery
-				</td>
-				<td class="right_end small">22 hours ago</td>
-			</tr>
-			
-			<tr>
-				<td>
-					<span class="icon pages"></span>
-					<a href="#">Administrator</a> added the news <a href="#">Wow, this feels amazing!</a>
-				</td>
-				<td class="right_end small">22 hours ago</td>
-			</tr>
-			
-			<tr>
-				<td>
-					<span class="icon user"></span>
-					<a href="#">Administrator</a> logged in for the first time
-				</td>
-				<td class="right_end small">22 hours ago</td>
-			</tr>
-			
-			<tr>
-				<td>
-					<span class="icon user"></span>
-					<a href="#">Administrator</a> added <a href="#">Kasper</a> to the <a href="#">Administrator</a> group
-				</td>
-				<td class="right_end small">3 days ago</td>
-			</tr>
-			
-			<tr>
-				<td>
-					<span class="icon user"></span>
-					<a href="#">Administrator</a> created the user called <a href="#">Kasper</a>
-				</td>
-				<td class="right_end small">3 days ago</td>
-			</tr>
-			
+			<volist name="doc" id="d">
+				<tr>
+					<td>
+						<span class="icon pages"></span>
+						<a href="__ROOT__/info/index.php?s=/DocumentInfo/look/eid/{$d.eid}" rel="facebox">{$d.title}</a>
+					</td>
+					<td class="right_end small">{$d.date}</td>
+				</tr>
+			</volist>
 		</table>
 		<!-- Stats Table: End -->
 
@@ -253,72 +133,7 @@
 </div>
 <!-- 75% Box Grid Container: End -->
 
-<!-- 75% Box Grid Container: Start -->
-<div class="grid_24">
 
-	<!-- Box Header: Start -->
-	<div class="box_top">
-		
-		<h2 class="icon edit">信息交流</h2>
-		<span style="margin-left: 80%;font-size: 14px" > <a href="#" style="color: #FFFFFF">more</a></span>
-	</div>
-	<!-- Box Header: End -->
-	
-	<!-- Box Content: Start -->
-	<div class="box_content">
-		
-		<!-- Stats Table: Start -->
-		<table>
-			
-			<tr>
-				<td>
-					<span class="icon pictures"></span>
-					<a href="#">Administrator</a> added the image <a href="#">My Kitten</a> to the <a href="#">Cats</a> gallery
-				</td>
-				<td class="right_end small">22 hours ago</td>
-			</tr>
-			
-			<tr>
-				<td>
-					<span class="icon pages"></span>
-					<a href="#">Administrator</a> added the news <a href="#">Wow, this feels amazing!</a>
-				</td>
-				<td class="right_end small">22 hours ago</td>
-			</tr>
-			
-			<tr>
-				<td>
-					<span class="icon user"></span>
-					<a href="#">Administrator</a> logged in for the first time
-				</td>
-				<td class="right_end small">22 hours ago</td>
-			</tr>
-			
-			<tr>
-				<td>
-					<span class="icon user"></span>
-					<a href="#">Administrator</a> added <a href="#">Kasper</a> to the <a href="#">Administrator</a> group
-				</td>
-				<td class="right_end small">3 days ago</td>
-			</tr>
-			
-			<tr>
-				<td>
-					<span class="icon user"></span>
-					<a href="#">Administrator</a> created the user called <a href="#">Kasper</a>
-				</td>
-				<td class="right_end small">3 days ago</td>
-			</tr>
-			
-		</table>
-		<!-- Stats Table: End -->
-
-		
-	</div>
-	<!-- Box Content: End -->
-	
-</div>
-<!-- 75% Box Grid Container: End -->
 <include file='../../Public/foot.html'/>
 <script type="text/javascript" src="PUBLIC_URL/js/jquery-1.4.1.min.js"></script>
 <script type="text/javascript" src="PUBLIC_URL/js/jquery-ui-1.8.13.custom.min.js"></script>
@@ -330,5 +145,8 @@ j(function(){
 	j( ".accordion" ).accordion();
 			
 	
+})
+$(function(){
+	$('a[rel=facebox]').facebox();
 })
 </script>

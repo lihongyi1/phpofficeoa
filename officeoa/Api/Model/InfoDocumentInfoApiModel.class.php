@@ -4,7 +4,7 @@ class InfoDocumentInfoApiModel extends Model{
 		$db_config=C('db_config');
 		$this->db = Db::getInstance($db_config);
 	}
-	public function addElectronicInfo($data){
+	public function addDocumentInfo($data){
 		$data['type']=3;
 		$res=$this->table(C('DB_PREFIX').'enotice')->add($data);
 		return $res;

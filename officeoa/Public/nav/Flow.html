@@ -1,0 +1,27 @@
+<!-- 25% Box Grid Container: Start -->
+<div class="grid_6">
+
+	<!-- Box Header: Start -->
+	<div class="box_top">
+		
+		<h2 class="icon coverflow">流转中心</h2>
+		
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content">
+		
+		<!-- Vertical Menu: Start -->
+			<ul class="menu">
+				<if condition='MODULE_NAME.ACTION_NAME eq Flow.index or MODULE_NAME.ACTION_NAME eq Flow.addflow or MODULE_NAME.ACTION_NAME eq Flow.editflow'><li><a href="__ROOT__/flow/index.php?s=/Flow/index" class='active'><span class="icon pages"></span>电子流</a><else/><li><a href="__ROOT__/flow/index.php?s=/Flow/index"><span class="icon pages"></span>电子流</a></if>
+				<if condition='MODULE_NAME.ACTION_NAME eq Flow.myapply'><li><a href="__ROOT__/flow/index.php?s=/Flow/myapply" class='active'><span class="icon pages"></span>我申请的</a><else/><li><a href="__ROOT__/flow/index.php?s=/Flow/myapply"><span class="icon pages"></span>我申请的</a></if>
+				<if condition='MODULE_NAME.ACTION_NAME eq Flow.reply'><li><a href="__ROOT__/info/index.php?s=/DocumentInfo/index" class='active'><span class="icon pages"></span>我批复的</a><else/><li><a href="__ROOT__/info/index.php?s=/DocumentInfo/index"><span class="icon pages"></span>我批复的</a></if>
+			</ul>
+		<!-- Vertical Menu: End -->
+
+	</div>
+	<!-- Box Content: End -->
+	
+</div>
+<!-- 25% Box Grid Container: End -->

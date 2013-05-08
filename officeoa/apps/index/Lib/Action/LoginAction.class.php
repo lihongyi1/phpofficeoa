@@ -11,7 +11,7 @@ class LoginAction extends BaseAction {
    		$username=trim($_POST['username']);
    		$passwd=trim($_POST['password']);
    		$res=$this->api->IndexLogin_dologin(addslashes($username));
-   		if(empty($username) || empty($res)){
+   		if(empty($username) || empty($res) || $res['username']!=$username){
    			echo 'error';
    			exit;
    		}

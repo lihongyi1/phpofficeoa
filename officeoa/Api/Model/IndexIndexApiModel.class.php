@@ -22,6 +22,18 @@ class IndexIndexApiModel extends Model{
 		}
 		return $res;
 	}
+	public function getdoucument(){
+		$contents=$this->table(C('DB_PREFIX').'enotice')->where(array('isdelete'=>0,'type'=>3))->order('`date` desc')->limit(4)->select();
+		return $contents;
+	}
+	public function getelectronic(){
+		$contents=$this->table(C('DB_PREFIX').'enotice')->where(array('isdelete'=>0,'type'=>1))->order('`date` desc')->limit(4)->select();
+		return $contents;
+	}
+	public function getinter(){
+		$contents=$this->table(C('DB_PREFIX').'enotice')->where(array('isdelete'=>0,'type'=>2))->order('`date` desc')->limit(4)->select();
+		return $contents;
+	}
 	
 	
 

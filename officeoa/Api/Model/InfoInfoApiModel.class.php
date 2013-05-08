@@ -82,7 +82,7 @@ class InfoInfoApiModel extends Model{
 	*/
 	public function view($replyid,$uid){
 		
-		$condition='(replyid='.$replyid.' or id='.$replyid.') and isdelete!='.$uid;
+		$condition='(replyid='.$replyid.' or id='.$replyid.')';
 		$data=$this->table(C('DB_PREFIX').'info')->where($condition)->order("ctime")->select();
 		foreach ($data as $key=>$value) {
 			$data[$key]['fromid']=$this->table(C('DB_PREFIX').'user')->field(array('userid','realname'))->where(array('userid'=>$value['fromid']))->find();
@@ -121,7 +121,7 @@ class InfoInfoApiModel extends Model{
 		return $res;
 	}
 	public function getcount($uid){
-		$condition='toid ='.$uid.' and isnew=1 and isdelete!='.$uid;
+		$condition='toid ='.$uid.' and isnew=1 and isread=0 and isdelete!='.$uid;
 		$data=$this->table(C('DB_PREFIX').'info')->where($condition)->count();
 		return $data;
 	}

@@ -5,6 +5,12 @@ class IndexAction extends BaseAction{
 	}
 	public function index(){
 		//dump($_SESSION['usersession']);
+		$doc=$this->api->IndexIndex_getdoucument();
+		$ele=$this->api->IndexIndex_getelectronic();
+		$inter=$this->api->IndexIndex_getinter();
+		$this->assign('doc',$doc);
+		$this->assign('ele',$ele);
+		$this->assign('inter',$inter);
 		$this->display();
 	}
 	public function changeWidth(){

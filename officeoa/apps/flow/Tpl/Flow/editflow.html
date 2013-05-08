@@ -1,0 +1,188 @@
+<include file='../../Public/nav/Index.html'/>
+		<!-- Breadcrumb Bar: Start -->
+		<div id="breadcrumb">
+			
+			<!-- Breadcrumb: Start -->
+			<ul class="left">
+				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
+				<li class="icon point_right"><a href="__APP__/Flow/index">流转中心</a></li>
+				<li class="icon point_right"><a href="__APP__/Flow/addflow">新建流</a></li>
+			</ul>
+			<!-- Breadcrumb: End -->
+			<!-- Breadcrumb Icon Links: Start -->
+			<ul class="right">
+				<li><a href="#" class="icon support tip" title="当前日期">当前日期：</a></li>
+				<li><a href="#" id="datetime" title="当前日期" style="color: #B0B0B0">当前日期</a></li>
+				
+			</ul>
+			<!-- Breadcrumb Icon Links: End -->
+			
+		</div>
+		<!-- Breadcrumb Bar: End -->
+		
+	</div>
+	<!-- Header Grid Container: End -->
+	
+<include file="../../Public/nav/Flow.html"/>
+<!-- 75% Box Grid Container: Start -->
+<div class="grid_18">
+
+	<!-- Box Header: Start -->
+	<div class="box_top padding">
+		
+		<h2 class="icon user">流转中心</h2>
+		<ul class="sorting">
+		<li>
+		<a class="" href="javascript:history.back()">返回</a>
+		</li>
+		<li>
+		<a class="active" href="javascript:void(0)">编辑电子流</a>
+		</li>
+		</ul>
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content padding">
+		<div class="field">
+		<input type="hidden" value="{$info.lid}" id="flowid"/>
+		<label class="left" >流程名称:</label>
+		<input type="text" id="title" value="{$info.title}"/>
+		</div>
+		<div class="field">
+		<label>用途说明:</label>
+		<textarea rows="" cols="" id="desc">{$info.descb}</textarea>
+		</div>
+		<div class="field">
+		<label>模板说明:</label>
+		{:W('Editor',array('content'=>$info['content']))}
+		</div>
+		<div class="field" >
+		<div class="left" style="overflow: auto;width: 40%">
+			<button id="fq">发起人设置</button>
+			<table class="sorting" style="">
+				<thead>
+					<tr>
+						<th class="align_left center" style="width:60%">用户</th>
+						<th class="align_left center ">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+					<volist name='info.fqinfo' id="fq">
+					<tr>
+					<td><a id="{$fq.userid}" href="/apps/personal/index.php?s=/AddressList/userInfo/uid/{$fq.userid}" name="user" target="_blank">{$fq.realname}</a></td>
+					<td><a class="delete tip new" title="删除" href="javascript:void(0)">删除</a></td>
+					</tr>
+					</volist>
+				</tbody>
+			</table> 
+		</div>
+		<div class="right" style="overflow: auto;width: 40%">
+			<button id="sp">审批人设置</button>
+			<table class="sorting" style="">
+				<thead>
+					<tr>
+						<th class="align_left center" style="width:60%">用户</th>
+						<th class="align_left center ">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+				<volist name='info.spinfo' id="sp">
+					<tr>
+					<td><a id="{$sp.userid}" href="/apps/personal/index.php?s=/AddressList/userInfo/uid/{$sp.userid}" name="user" target="_blank">{$sp.realname}</a></td>
+					<td><a class="delete tip new" title="删除" href="javascript:void(0)">删除</a></td>
+					</tr>
+					</volist>
+				</tbody>
+			</table> 
+		</div>
+		
+	</div>
+		
+		<div class="field" align="center">
+			<div class="button" style="-moz-user-select: none;">
+			<span>
+			提交
+			<button style="opacity: 0;" id="submit1">提交</button>
+			</span>
+			</div>
+			<div class="button" style="-moz-user-select: none;">
+			<span>
+			返回
+			<button class="secondary" type="button" style="opacity: 0;" id="reset">返回</button>
+			</span>
+			</div>
+		</div>
+	</div>
+	<!-- Box Content: End -->
+	
+</div>	
+<!-- 75% Box Grid Container: End -->
+
+<include file='../../Public/foot.html'/>
+<script>
+$(function(){
+$('#reset').click(function(){
+	window.history.back();
+})
+$('#fq').click(function(){
+	var ids=new Array();
+	$(this).next().find('a[name="user"]').each(function(){
+			ids.push($(this).attr('id'));
+		})
+	$.facebox({ajax:'__APP__/Flow/users/type/fq/ids/'+ids.join(',')});
+})
+
+$('#sp').click(function(){
+	var ids=new Array();
+	$(this).next().find('a[name="user"]').each(function(){
+			ids.push($(this).attr('id'));
+		})
+	$.facebox({ajax:'__APP__/Flow/users/type/sp/ids/'+ids.join(',')});
+})
+$('#submit1').click(function(){
+	var title=$.trim($('#title').val());
+	var desc=$.trim($('#desc').val());
+	var content=$.trim($('.ke-edit-iframe').contents().find('.ke-content').html());
+	if(title.length>20 || title.length<1){
+			alert('流程名称在1-20个字之间');
+			return;
+		}
+	var fqids=new Array();
+	$('#fq').next().find('a[name="user"]').each(function(){
+		fqids.push($(this).attr('id'));
+	})
+	var spids=new Array();
+	$('#sp').next().find('a[name="user"]').each(function(){
+		spids.push($(this).attr('id'));
+	})
+	if(fqids.length==0){
+		 alert('请选择发起人员');
+		 return;
+	}
+	if(spids.length==0){
+		 alert('请选择审批人员');
+		 return;
+	}
+	$.post(
+			"__APP__/Flow/doedit",
+			{'title':title,'desc':desc,'content':content,'fqids[]':fqids,'spids[]':spids,'lid':$('#flowid').val()},
+			function(data){
+					alert(data);
+					if(data=='success'){
+						window.location.href='__APP__/Flow/index';
+						}else{
+							alert('操作失败，请重试');
+							}
+				})
+	
+	
+})
+	
+})
+$(document).on('click','.sorting .delete.new',function(){
+			$(this).parent().parent().remove();
+			
+		});
+</script>
