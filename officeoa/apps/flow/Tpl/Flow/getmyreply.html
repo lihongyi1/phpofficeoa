@@ -1,0 +1,152 @@
+<include file='../../Public/nav/Index.html'/>
+		<!-- Breadcrumb Bar: Start -->
+		<div id="breadcrumb">
+			
+			<!-- Breadcrumb: Start -->
+			<ul class="left">
+				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
+				<li class="icon point_right"><a href="__APP__/Flow/index">流转中心</a></li>
+			</ul>
+			<!-- Breadcrumb: End -->
+			<!-- Breadcrumb Icon Links: Start -->
+			<ul class="right">
+				<li><a href="#" class="icon support tip" title="当前日期">当前日期：</a></li>
+				<li><a href="#" id="datetime" title="当前日期" style="color: #B0B0B0">当前日期</a></li>
+				
+			</ul>
+			<!-- Breadcrumb Icon Links: End -->
+			
+		</div>
+		<!-- Breadcrumb Bar: End -->
+		
+	</div>
+	<!-- Header Grid Container: End -->
+	
+<include file="../../Public/nav/Flow.html"/>
+<!-- 750% Box Grid Container: Start -->
+<div class="grid_18">
+
+	<!-- Box Header: Start -->
+	<div class="box_top padding">
+		
+		<h2 class="icon user">我批复的</h2>
+		<ul class="sorting">
+		<li>
+		<a class="" href="javascript:history.back()">返回</a>
+		</li>
+		<li>
+		<a class="active" href="javascript:void(0)">查看</a>
+		</li>
+		</ul>
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content padding">
+		<div class="field">
+		<label cla></label>
+		<label class="left" >流程名称:</label>
+		<label class="left" >{$info.atitle}</label>
+		</div>
+		<div class="field">
+		<label class="left" >主　　题:</label>
+		<label class="left" >{$info.title}</label>
+		</div>
+		<div class="field">
+		<label class="left" >审批流程:</label>
+		<label class="left" >
+		<volist name='spusers' id='sp'>
+		<a id="" href="__ROOT__/personal/index.php?s=/AddressList/userInfo/uid/{$sp['spid']['userid']}" target="_blank">{$sp['spid']['realname']}</a>
+		<php>if($i!=count($spusers)){</php>　>　<php>}</php>
+		</volist>
+		</label>
+		</div>
+		<div class="field">
+		<label class="left" >申请说明:</label>
+		<br/><br/><br/>
+		<div align="center" style="font-size:12px">
+		{$info.content|htmlspecialchars_decode=###,ENT_QUOTES}
+		</div>
+		</div>
+		<div class="field">
+		<label class="left" >审批日志:</label><br/>
+		<table class="sorting" >
+		<tr>
+		<td class="align_left center" style="width:15%"> 序号 </td>
+		<td class="align_left center" style="width:20%">记录时间</td>
+		<td class="align_left center" style="width:65%">内容</td>
+		</tr>
+		<tr>
+		<td class="align_left center" style="width:15%">1</td>
+		<td class="align_left center" style="width:20%">{$info.atime}</td>
+		<td class="align_left center" style="width:65%">{$usersession['realname']} 提交申请</td>
+		</tr>
+		<volist name="spusers" id='sp'>
+		<if condition="$info.status neq 0">
+		<tr>
+		<td class="align_left center" style="width:15%">{$i+1}</td>
+		<td class="align_left center" style="width:20%">{$sp.stime}</td>
+		<td class="align_left center" style="width:65%">{$sp.spid.realname} 审批{$sp.statusinfo}。 {$sp.content}</td>
+		</tr>
+		</if>
+		</volist>
+		<if condition="$info.laststatus eq 1">
+			<tr>
+			<td class="align_left center" style="width:15%"><php>echo count($spusers)+2;</php></td>
+			<td class="align_left center" style="width:20%">{$info.utime}</td>
+			<td class="align_left center" style="width:65%">审批完成</td>
+			</tr>
+		</if>
+		</table>
+		</div>
+		<php>if(empty($info['status'])){</php>
+		
+		<div class="field">
+		<label class="left">批复</label><br/>
+		<div style="font-size:12px" align="center"><input type="radio" name="p" value="1"/>通过 <input type="radio" name="p" value="2"/>驳回<br/>
+		<textarea id="content"></textarea>
+		</div> 
+		
+		</div>
+		
+		<div class="field" align="center">
+			<div class="button" style="-moz-user-select: none;">
+			<span>
+			批复
+			<button style="opacity: 0;" id="submit">批复</button>
+			</span>
+			</div>
+		</div>
+
+		<php>}</php>
+	</div>
+	<!-- Box Content: End -->
+
+</div>	
+<!-- 100% Box Grid Container: End -->
+<include file='../../Public/foot.html'/>
+		<script>
+			$(function(){
+				$('#submit').click(function(){
+					var res=$('input[name="p"]:checked').val();
+					if(!res){
+							alert('请选择批复结果');
+							return;
+						}
+					var rid="{$info.rid}";
+					var aid="{$info.aid}";
+					var content=$('#content').val();
+					$.post(
+							"__APP__/Flow/doreply",
+							{'rid':rid,'aid':aid,'content':content,'res':res},
+							function(data){
+								alert(data);
+									if(data=='success'){
+											window.location.href='__APP__/Flow/myreply';
+										}else if(data=='error'){
+												alert('操作失败，请重试');
+											}
+								})							
+				})
+			})
+		</script>

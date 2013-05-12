@@ -52,6 +52,7 @@ class ContentReplaceBehavior extends Behavior {
             '__PUBLIC__'  => __ROOT__.'/Public',// 站点公共目录
         	'PUBLIC_URL'  => PUBLIC_URL,
         	'PUBLIC_PATH'  => PUBLIC_PATH,
+        	'SITE_URL'=>SITE_URL
         );
         // 允许用户自定义模板的字符串替换
         if(is_array(C('TMPL_PARSE_STRING')) )

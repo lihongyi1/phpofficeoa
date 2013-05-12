@@ -32,7 +32,7 @@
 		<h2 class="icon user">流转中心</h2>
 		<ul class="sorting">
 		<li>
-		<a class="active" href="javascript:void(0)">我申请的</a>
+		<a class="active" href="javascript:void(0)">我批复的</a>
 		</li>
 		</ul>
 	</div>
@@ -58,16 +58,16 @@
 					</thead>
 					<tbody>
 						<php>if(empty($lists)){</php>
-							<tr><td colspan="5" ><a href="__APP__/Flow/addflow">没有相关电子流。</a></td></tr>
+							<tr><td colspan="5" ><a href="javascript:void(0)">没有相关电子流。</a></td></tr>
 						<php>}</php>
 						<volist name="lists" id="list">
 							<tr>
 								<td class="align_left">{$list.atitle}</td>
-								<td class="align_left center"><a href="__APP__/Flow/getmyapply/aid/{$list.id}">{$list.title}</a> </td>
+								<td class="align_left center"><a href="__APP__/Flow/getmyreply/rid/{$list.rid}">{$list.title}</a> </td>
 								<td class="align_left center"> {$list.atime} </td>
 								<td class="align_left center"> {$list.status} </td>
 								<td class="align_left tools center">
-									<a href="__APP__/Flow/getmyapply/aid/{$list.id}"  class="view tip" title="查看">查看</a>
+									<a href="__APP__/Flow/getmyreply/rid/{$list.rid}"  class="view tip" title="查看">查看</a>
 								</td>
 							</tr>
 						</volist>

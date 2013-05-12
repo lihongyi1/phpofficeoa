@@ -14,14 +14,19 @@ span.error{color:red;font-weight:bold}
 span.success{color:blue;font-weight:bold}
 div.msg{margin:20px 0px}
 </style>
+<script>
+function jump(){
+	setTimeout('{$jumpUrl}', '{$waitSecond}000');
+}
+</script>
 </head>
-<body>
+<body onload="jump();">
 <div class="message">
 	<div class="msg">
 	<present name="message" >
-	<span class="success">{$msgTitle}{$message}</span>
+	<span class="success">{$message}</span>
 	<else/>
-	<span class="error">{$msgTitle}{$error}</span>
+	<span class="error">{$error}</span>
 	</present>
 	</div>
 	<div class="tip">

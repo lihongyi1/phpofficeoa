@@ -153,7 +153,7 @@ class FlowAction extends BaseAction{
     	$uid=intval($this->usersession['userid']);
     	if(empty($lid)) $this->error('操作失败，请重试');
     	$res=$this->api->FlowIndex_checkapply($lid,$uid);
-    	if(empty($res)) $this->error('操作失败，请重试');
+    	if(empty($res)) $this->error('您没有权限');
     	$this->assign('info',$res);
     	$this->display('apply');
     }
@@ -173,13 +173,52 @@ class FlowAction extends BaseAction{
     	$uid=intval($this->usersession['userid']);
     	$data=$this->api->FlowIndex_myapplylist($uid);
     	$this->assign('lists',$data);
-    	dump($data);
     	$this->display('myapply');
     }
     
-    public function test(){
-    		$data=$this->api->FlowIndex_editflowtemplate(2);
-    		dump($data);
+    public function myreply(){
+    	$uid=intval($this->usersession['userid']);
+    	$data=$this->api->FlowIndex_myreplylist($uid);
+    	$this->assign('lists',$data);
+    	$this->display('myreply');
     }
+    public function getmyapply(){
+    	$aid=intval($_GET['aid']);
+    	$uid=intval($this->usersession['userid']);
+    	$data=$this->api->FlowIndex_getmyapply($aid,$uid);
+    	$this->assign('info',$data);
+    	$data1=$this->api->FlowIndex_getspusers($aid);
+    	$this->assign('spusers',$data1);
+    	$this->display('getmyapply');
+    }
+    public function undoapply(){
+    	$aid=intval($_POST['aid']);
+    	$uid=intval($this->usersession['userid']);
+    	$res=$this->api->FlowIndex_undoapply($aid,$uid);
+    	if(empty($res)) exit('error');
+    	echo 'success';
+    }
+    
+    public function getmyreply(){
+    	$rid=intval($_GET['rid']);
+    	$uid=intval($this->usersession['userid']);
+    	$data=$this->api->FlowIndex_getmyreply($rid,$uid);
+    	if(empty($data)) $this->error('操作错误，请重试');
+    	$data1=$this->api->FlowIndex_getspusers($data['aid']);
+    	$this->assign('info',$data);
+    	$this->assign('spusers',$data1);
+    	$this->display('getmyreply');
+    }
+    public function doreply(){
+    	$rid=intval($_POST['rid']);
+    	$aid=intval($_POST['aid']);
+    	$content=htmlspecialchars($_POST['content']);
+    	$res=intval($_POST['res']);
+    	$uid=intval($this->usersession['userid']);
+    	$res=$this->api->FlowIndex_doreply($uid,$rid,$res,$content);
+    	if(empty($res)) exit('error');
+    	echo 'success';
+    }
+    
 }
 ?>

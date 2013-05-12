@@ -14,9 +14,9 @@
 		
 		<!-- Vertical Menu: Start -->
 			<ul class="menu">
-				<if condition='MODULE_NAME.ACTION_NAME eq Flow.index or MODULE_NAME.ACTION_NAME eq Flow.addflow or MODULE_NAME.ACTION_NAME eq Flow.editflow'><li><a href="__ROOT__/flow/index.php?s=/Flow/index" class='active'><span class="icon pages"></span>电子流</a><else/><li><a href="__ROOT__/flow/index.php?s=/Flow/index"><span class="icon pages"></span>电子流</a></if>
-				<if condition='MODULE_NAME.ACTION_NAME eq Flow.myapply'><li><a href="__ROOT__/flow/index.php?s=/Flow/myapply" class='active'><span class="icon pages"></span>我申请的</a><else/><li><a href="__ROOT__/flow/index.php?s=/Flow/myapply"><span class="icon pages"></span>我申请的</a></if>
-				<if condition='MODULE_NAME.ACTION_NAME eq Flow.reply'><li><a href="__ROOT__/info/index.php?s=/DocumentInfo/index" class='active'><span class="icon pages"></span>我批复的</a><else/><li><a href="__ROOT__/info/index.php?s=/DocumentInfo/index"><span class="icon pages"></span>我批复的</a></if>
+				<if condition='MODULE_NAME.ACTION_NAME eq Flow.index or MODULE_NAME.ACTION_NAME eq Flow.addflow or MODULE_NAME.ACTION_NAME eq Flow.editflow or MODULE_NAME.ACTION_NAME eq Flow.apply'><li><a href="__ROOT__/flow/index.php?s=/Flow/index" class='active'><span class="icon pages"></span>电子流</a><else/><li><a href="__ROOT__/flow/index.php?s=/Flow/index"><span class="icon pages"></span>电子流</a></if>
+				<if condition='MODULE_NAME.ACTION_NAME eq Flow.myapply or MODULE_NAME.ACTION_NAME eq Flow.getmyapply'><li><a href="__ROOT__/flow/index.php?s=/Flow/myapply" class='active'><span class="icon pages"></span>我申请的</a><else/><li><a href="__ROOT__/flow/index.php?s=/Flow/myapply"><span class="icon pages"></span>我申请的</a></if>
+				<if condition='MODULE_NAME.ACTION_NAME eq Flow.myreply or MODULE_NAME.ACTION_NAME eq Flow.getmyreply'><li><a href="__ROOT__/flow/index.php?s=/Flow/myreply" class='active'><span class="icon pages"></span>我批复的</a><else/><li><a href="__ROOT__/flow/index.php?s=/Flow/myreply"><span class="icon pages"></span>我批复的</a></if>
 			</ul>
 		<!-- Vertical Menu: End -->
 

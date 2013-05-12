@@ -17,6 +17,8 @@ return  array(
         'Model'         =>   MODE_PATH.'MyMode/Model.class.php',
         'Db'                  =>    MODE_PATH.'MyMode/Db.class.php',
 		'Page'   => 	THINK_PATH.'Lib/ORG/Util/Page.class.php',
+		'Http'   => 	THINK_PATH.'Lib/ORG/Util/Http.class.php',
+		'UploadFile'   => 	THINK_PATH.'Lib/ORG/Util/UploadFile.class.php',
     ), 
 );
 ?>
