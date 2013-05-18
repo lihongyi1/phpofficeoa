@@ -5,7 +5,8 @@
 			<!-- Breadcrumb: Start -->
 			<ul class="left">
 				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
-				<li class="icon point_right"><a href="__APP__/Flow/index">流转中心</a></li>
+				<li class="icon point_right"><a href="__APP__/Index/index">流转中心</a></li>
+				<li class="icon point_right"><a href="__APP__/Flow/myreply">我批复的</a></li>
 			</ul>
 			<!-- Breadcrumb: End -->
 			<!-- Breadcrumb Icon Links: Start -->
@@ -79,7 +80,7 @@
 		<tr>
 		<td class="align_left center" style="width:15%">1</td>
 		<td class="align_left center" style="width:20%">{$info.atime}</td>
-		<td class="align_left center" style="width:65%">{$usersession['realname']} 提交申请</td>
+		<td class="align_left center" style="width:65%">{$info.uid.realname} 提交申请</td>
 		</tr>
 		<volist name="spusers" id='sp'>
 		<if condition="$info.status neq 0">

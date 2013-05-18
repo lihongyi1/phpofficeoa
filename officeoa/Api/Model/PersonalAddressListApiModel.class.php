@@ -9,13 +9,15 @@ class PersonalAddressListApiModel extends Model{
 		return $res;
 	}
 	public function getAllUsers($info=""){
-		$where=empty($info)? "":"realname like '".$info."%'";
+		$where=empty($info)? "":"realname like '".$info."%' and";
+		$where.=' isdelete=0';
 		$res=$this->table(C('DB_PREFIX').'user')->field(array('userid','username','realname','mobile','deptid','positionid','tel','email'))->where($where)->select();
 		return $res;
 	}
 	public function getUsersByDept($dept){
 		
 		$where=empty($dept)?"":array('deptid'=>$dept);
+		$where['isdelete']=array('eq',0);
 		$res=$this->table(C('DB_PREFIX').'user')->field(array('userid','username','realname','mobile','deptid','positionid','tel','email'))->where($where)->select();
 		return $res;
 	}

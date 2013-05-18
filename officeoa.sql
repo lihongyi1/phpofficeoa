@@ -15,6 +15,25 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/`officeoa` /*!40100 DEFAULT CHARACTER SE
 
 USE `officeoa`;
 
+/*Table structure for table `oa_attach` */
+
+DROP TABLE IF EXISTS `oa_attach`;
+
+CREATE TABLE `oa_attach` (
+  `aid` int(11) NOT NULL AUTO_INCREMENT,
+  `attachname` varchar(255) NOT NULL,
+  `size` int(11) DEFAULT NULL,
+  `content` mediumtext,
+  `savename` varchar(255) DEFAULT NULL,
+  `ext` varchar(10) DEFAULT NULL,
+  `path` mediumtext,
+  `ctime` datetime DEFAULT NULL,
+  `uid` int(11) NOT NULL,
+  `click` int(11) DEFAULT '0',
+  `isdel` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`aid`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
 /*Table structure for table `oa_dept` */
 
 DROP TABLE IF EXISTS `oa_dept`;
@@ -22,7 +41,7 @@ DROP TABLE IF EXISTS `oa_dept`;
 CREATE TABLE `oa_dept` (
   `deptid` int(11) NOT NULL AUTO_INCREMENT,
   `deptname` varchar(255) NOT NULL,
-  `deptnum` int(11) unsigned DEFAULT NULL,
+  `deptnum` int(11) unsigned DEFAULT '0',
   PRIMARY KEY (`deptid`),
   UNIQUE KEY `deptname` (`deptname`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
@@ -69,11 +88,14 @@ CREATE TABLE `oa_flow_apply` (
   `title` varchar(255) NOT NULL,
   `content` mediumtext NOT NULL,
   `step` tinyint(1) DEFAULT '0',
+  `spids` mediumtext,
   `status` tinyint(1) DEFAULT '0',
+  `laststatus` tinyint(1) DEFAULT '0',
   `atime` datetime DEFAULT NULL,
+  `utime` datetime DEFAULT NULL,
   `isdel` tinyint(1) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 /*Table structure for table `oa_flow_reply` */
 
@@ -84,10 +106,11 @@ CREATE TABLE `oa_flow_reply` (
   `aid` int(11) NOT NULL,
   `spid` int(11) NOT NULL,
   `content` mediumtext,
+  `step` tinyint(1) DEFAULT '0',
   `status` tinyint(1) DEFAULT '0',
   `stime` datetime DEFAULT NULL,
   PRIMARY KEY (`rid`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 /*Table structure for table `oa_flow_template` */
 
@@ -120,7 +143,7 @@ CREATE TABLE `oa_info` (
   `isnew` tinyint(1) DEFAULT '1',
   `isdelete` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8;
 
 /*Table structure for table `oa_position` */
 
@@ -130,9 +153,10 @@ CREATE TABLE `oa_position` (
   `positionid` int(11) NOT NULL AUTO_INCREMENT,
   `position` varchar(255) NOT NULL,
   `deptid` int(11) DEFAULT NULL,
-  `positionnum` int(11) unsigned DEFAULT NULL,
-  PRIMARY KEY (`positionid`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+  `positionnum` int(11) unsigned DEFAULT '0',
+  PRIMARY KEY (`positionid`),
+  UNIQUE KEY `NewIndex1` (`positionid`,`deptid`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 /*Table structure for table `oa_test` */
 
@@ -168,19 +192,20 @@ CREATE TABLE `oa_user` (
   `realname` varchar(255) NOT NULL,
   `mobile` varchar(11) DEFAULT NULL,
   `passwd` varchar(32) NOT NULL,
-  `deptid` int(11) DEFAULT NULL,
-  `positionid` int(11) DEFAULT NULL,
+  `sex` tinyint(1) DEFAULT '0',
+  `deptid` int(11) DEFAULT '0',
+  `positionid` int(11) DEFAULT '0',
   `email` varchar(255) DEFAULT NULL,
   `tel` varchar(255) DEFAULT NULL,
   `address` varchar(255) DEFAULT NULL,
   `permission` varchar(255) DEFAULT NULL COMMENT '权限',
   `grade` tinyint(1) DEFAULT NULL,
-  `role` tinyint(1) DEFAULT NULL COMMENT '角色',
+  `role` tinyint(1) DEFAULT '0' COMMENT '角色',
   `entertime` datetime DEFAULT NULL COMMENT '入职时间',
   `isdelete` tinyint(1) DEFAULT '0' COMMENT '删除',
   PRIMARY KEY (`userid`),
   UNIQUE KEY `username` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

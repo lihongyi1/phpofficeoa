@@ -22,19 +22,22 @@
 					</div>
 				  
 				  <button class="replyinbox">发送</button>
-				  <button class="secondary" type="reset">重置</button>
+				  <button class="secondary" type="reset" id="reset">重置</button>
 				  <!-- Quick Reply: End -->
 				  
 			</div>
 			<!-- Messages Popup Content: End -->
 <script>
+$('#reset').click(function(){
+	$('#replyinbox').val('');
+})
 $('.replyinbox').click(function(){
 	var rid='{$rid}';
 	$.post(
 			"__APP__/Info/reply",
 			{'rid':rid,'content':$('#replyinbox').val()},
 			function(data){
-					alert(data);
+					window.location.reload();
 				})
 })
 </script>

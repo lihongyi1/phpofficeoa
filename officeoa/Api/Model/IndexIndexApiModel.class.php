@@ -34,7 +34,10 @@ class IndexIndexApiModel extends Model{
 		$contents=$this->table(C('DB_PREFIX').'enotice')->where(array('isdelete'=>0,'type'=>2))->order('`date` desc')->limit(4)->select();
 		return $contents;
 	}
-	
+	public function passwd($uid,$old,$new){
+		$res=$this->table(C('DB_PREFIX').'user')->where(array('userid'=>$uid,'passwd'=>md5($old),'isdelete'=>0))->save(array('passwd'=>md5($new)));
+		return $res;
+	}
 	
 
 }

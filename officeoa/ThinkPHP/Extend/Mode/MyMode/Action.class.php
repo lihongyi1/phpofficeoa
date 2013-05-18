@@ -410,7 +410,7 @@ abstract class Action {
         if($status) { //发送成功信息
             $this->assign('message',$message);// 提示信息
             // 成功操作后默认停留1秒
-            if(!$this->view->get('waitSecond'))    $this->assign('waitSecond','1');
+            if(!$this->view->get('waitSecond'))    $this->assign('waitSecond','3');
             // 默认操作成功自动返回操作前页面
             if(!$this->view->get('jumpUrl')) $this->assign("jumpUrl",$_SERVER["HTTP_REFERER"]);
             $this->display(C('TMPL_ACTION_SUCCESS'));

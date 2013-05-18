@@ -1,10 +1,11 @@
 <?php
 
-class LoginAction extends BaseAction {
-   public function _initialize() {
-   		parent::base();
-   }
+class LoginAction extends Action {
    public function index(){
+   		$Themes=C('THEME');
+		$Widths=C('WIDTH');
+		$this->assign('theme',$Themes[0]);
+		$this->assign('width',$Widths[0]);
 		$this->display();
    }
    public function dologin(){
@@ -20,6 +21,7 @@ class LoginAction extends BaseAction {
    			exit;
    		}
    		$usersession['user']=$res;
+   		$usersession['lasttime']=time();
    		$_SESSION['usersession']=$usersession;
    		echo 'success';
    		

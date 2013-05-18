@@ -1,0 +1,26 @@
+<!-- 25% Box Grid Container: Start -->
+<div class="grid_6">
+
+	<!-- Box Header: Start -->
+	<div class="box_top">
+		
+		<h2 class="icon coverflow">维护中心</h2>
+		
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content">
+		
+		<!-- Vertical Menu: Start -->
+			<ul class="menu">
+			<if condition='MODULE_NAME eq ManageUser'><li><a href="__ROOT__/manage/index.php?s=/ManageUser/index" class='active'><span class="icon laptop"></span>人员管理</a><else/><li><a href="__ROOT__/manage/index.php?s=/ManageUser/index"><span class="icon pages"></span>人员管理</a></if>
+			<if condition='MODULE_NAME eq ManageDept'><li><a href="__ROOT__/manage/index.php?s=/ManageDept/index" class='active'><span class="icon laptop"></span>部门职务管理</a><else/><li><a href="__ROOT__/manage/index.php?s=/ManageDept/index"><span class="icon pages"></span>部门职务管理</a></if>
+			</ul>
+		<!-- Vertical Menu: End -->
+
+	</div>
+	<!-- Box Content: End -->
+	
+</div>
+<!-- 25% Box Grid Container: End -->

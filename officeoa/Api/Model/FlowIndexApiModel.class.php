@@ -62,7 +62,7 @@ class FlowIndexApiModel extends Model{
 		}
 	}
 	public function myapplylist($uid){
-		$data=$this->table(C('DB_PREFIX').'flow_apply')->where(array('uid'=>$uid,'isdel'=>0))->select();
+		$data=$this->table(C('DB_PREFIX').'flow_apply')->where(array('uid'=>$uid,'isdel'=>0))->order('atime desc')->select();
 		foreach ($data as $key=>$value) {
 			switch ($value['status']) {
 				case 0:
@@ -89,6 +89,7 @@ class FlowIndexApiModel extends Model{
 		$data=$this->table(C('DB_PREFIX').'flow_reply  as r left join '.C('DB_PREFIX').'flow_apply as a on r.aid=a.id ')
 				->field('r.rid,r.aid,r.spid,r.content,r.status,a.atime,a.atitle,a.title')
 				->where('spid='.$uid.' and a.status!=4 and r.step<=a.step')
+				->order('stime desc')
 				->select();
 		foreach ($data as $key=>$value) {
 			
@@ -146,9 +147,10 @@ class FlowIndexApiModel extends Model{
 	
 	public function getmyreply($rid,$uid){
 		$data=$this->table(C('DB_PREFIX').'flow_reply  as r left join '.C('DB_PREFIX').'flow_apply as a on r.aid=a.id ')
-				->field('r.rid,r.aid,r.spid,r.status,a.laststatus,a.atime,a.utime,a.content,a.title,a.atitle')
+				->field('r.rid,r.aid,r.spid,r.status,a.laststatus,a.atime,a.utime,a.content,a.title,a.atitle,a.uid')
 				->where('rid='.$rid.' and spid='.$uid)
 				->find();
+		if(!empty($data)) $data['uid']=$this->table(C("DB_PREFIX").'user')->field('userid,realname')->where(array('userid'=>intval($data['uid'])))->find();
 		return $data;
 	}
 	
@@ -190,9 +192,6 @@ class FlowIndexApiModel extends Model{
 		}
 	}
 
-	
-	
-	
 
 }
 ?>

@@ -398,7 +398,6 @@ class UploadFile {//类定义开始
         if(empty($rule)) {//没有定义命名规则，则保持文件名不变
             $saveName = $filename['name'];
         }else {
-        	var_dump(function_exists($rule));
             if(function_exists($rule)) {
                 //使用函数生成一个唯一文件标识号
                 $saveName = $rule().".".$filename['extension'];

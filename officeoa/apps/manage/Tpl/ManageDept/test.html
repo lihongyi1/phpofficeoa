@@ -1,0 +1,41 @@
+<html>
+<head>
+<script type="text/javascript" src="PUBLIC_URL/js/jstree/_lib/jquery.js"></script>
+<link href="PUBLIC_URL/js/jstree/themes/default/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="PUBLIC_URL/js/jstree/jquery.jstree.js"></script>
+</head>
+<body>
+<h1><a href="/">Destroydrop</a> &raquo; <a href="/javascripts/">Javascripts</a> &raquo; <a href="/javascripts/tree/">Tree</a></h1>
+
+<h2>Example</h2>
+
+<div id="demo1">
+
+
+</div>
+</body>
+</html>
+<script>
+$(function () {
+	$("#demo1").jstree({ 
+		"json_data" : {
+			"data" : [
+				{ 
+					"data" : "A node", 
+					"metadata" : { id : 23 },
+					"children" : [ "Child 1", "A Child 2" ]
+				},
+				{ 
+					"attr" : { "id" : "li.node.id1" }, 
+					"data" : { 
+						"title" : "Long format demo", 
+						"attr" : { "href" : "#" } 
+					} 
+				}
+			]
+		},
+		"plugins" : [ "themes", "json_data", "ui" ]
+	}).bind("select_node.jstree", function (e, data) { alert(jQuery.data(data.rslt.obj[0], "jstree").id) });
+});
+
+</script>

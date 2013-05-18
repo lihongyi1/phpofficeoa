@@ -1,0 +1,120 @@
+<include file='../../Public/nav/Index.html'/>
+		<!-- Breadcrumb Bar: Start -->
+		<div id="breadcrumb">
+			
+			<!-- Breadcrumb: Start -->
+			<ul class="left">
+				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
+				<li class="icon point_right"><a href="__APP__">维护中心</a></li>
+				<li class="icon point_right"><a href="__APP__/ManageUser/index">人员管理</a></li>
+			</ul>
+			<!-- Breadcrumb: End -->
+			<!-- Breadcrumb Icon Links: Start -->
+			<ul class="right">
+				<li><a href="javascript:void(0);" class="icon support tip" title="当前日期">当前日期：</a></li>
+				<li><a href="javascript:void(0);" id="datetime" title="当前日期" style="color: #B0B0B0">当前日期</a></li>
+				
+			</ul>
+			<!-- Breadcrumb Icon Links: End -->
+			
+		</div>
+		<!-- Breadcrumb Bar: End -->
+		
+	</div>
+	<!-- Header Grid Container: End -->
+	
+<include file="../../Public/nav/Manage.html"/>
+
+<!-- 75% Box Grid Container: Start -->
+<div class="grid_18">
+
+	<!-- Box Header: Start -->
+	<div class="box_top">
+		
+		<h2 class="icon users">人员管理</h2>
+		<ul class="sorting">
+		<li>
+		<a class="active" href="__APP__/ManageUser/index">人员列表</a>
+		</li>
+		<li>
+		<a class="" href="__APP__/ManageUser/addUser">添加人员</a>
+		</li>
+		</ul>
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content">
+		<div class="field" >
+			<label class="left " style="margin-top: 10px">公司部门：</label>
+			<select style="margin-top: 10px" id="sdept">
+				<option value="0">公司通讯录</option>
+				<volist name='depts' id='dept'>
+					<option value="{$dept['deptid']}">{$dept['deptname']}</option>
+				</volist>
+			</select>
+			<input type="text" class="right" id="search"> 
+			<label class="right">搜　　索：</label>
+		</div>
+		<!-- Simple Sorting Table + Pagination: Start -->
+		<table class="sorting">
+			<thead>
+				<tr>
+					<th>姓名</th>
+					<th>登录名</th>
+					<th>部门</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody id="usercontent">
+				
+				<volist name='users' id='user'>
+					<tr>
+					<td><a target="_blank" href="__ROOT__/personal?s=/AddressList/userInfo/uid/{$user['userid']}">{$user['realname']}</a></td>
+					<td>{$user['username']}</td>
+					<td>{$user['deptname']['deptname']}</td>
+					<td class="align_left center tools">
+					<a href="__APP__/ManageUser/userInfo/uid/{$user['userid']}"  class="edit tip" title="编辑">编辑</a>
+					<a href="#" id="{$user['userid']}"  class="view tip" title="权限">权限</a>
+					<a href="#" id="{$user['userid']}"  class="delete tip" title="删除">删除</a>
+					</td>
+					</tr>
+				</volist>
+				
+			</tbody>
+		</table>
+		<!-- Sorting Table: End -->
+
+	</div>
+	<!-- Box Content: End -->
+	
+</div>
+<!-- 75% Box Grid Container: End -->
+
+<include file='../../Public/foot.html'/>
+<script>
+	$('#search').keyup(function(){
+			$.post(
+					"__APP__/ManageUser/search",
+					{'info':$(this).val()},
+					function(data){
+						//alert(data);
+						$('#usercontent').html(data);	
+					}
+					)
+		})
+	$('#sdept').change(function(){
+			$.post(
+					"__APP__/ManageUser/searchbyDept",
+					{'dept':$(this).val()},
+					function(data){
+						$('#usercontent').html(data);	
+					}
+					)
+		})
+	$(document).on('click','.sorting .delete',function(){
+		if(confirm('确认删除？')){
+			window.location.href='__APP__/ManageUser/deleteUser/uid/'+$(this).attr('id');
+		}
+		});
+</script>

@@ -1,0 +1,171 @@
+<include file='../../Public/nav/Index.html'/>
+		<!-- Breadcrumb Bar: Start -->
+		<div id="breadcrumb">
+			
+			<!-- Breadcrumb: Start -->
+			<ul class="left">
+				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
+				<li class="icon point_right"><a href="__APP__">维护中心</a></li>
+				<li class="icon point_right"><a href="__APP__/ManageUser/index">人员管理</a></li>
+			</ul>
+			<!-- Breadcrumb: End -->
+			<!-- Breadcrumb Icon Links: Start -->
+			<ul class="right">
+				<li><a href="javascript:void(0);" class="icon support tip" title="当前日期">当前日期：</a></li>
+				<li><a href="javascript:void(0);" id="datetime" title="当前日期" style="color: #B0B0B0">当前日期</a></li>
+			</ul>
+			<!-- Breadcrumb Icon Links: End -->
+			
+		</div>
+		<!-- Breadcrumb Bar: End -->
+		
+	</div>
+	<!-- Header Grid Container: End -->
+	
+<include file="../../Public/nav/Manage.html"/>
+
+<!-- 75% Box Grid Container: Start -->
+<div class="grid_18">
+
+	<!-- Box Header: Start -->
+	<div class="box_top padding">
+		
+		<h2 class="icon user">添加员工信息</h2>
+		<ul class="sorting">
+		<li>
+		<a class="" href="__APP__/ManageUser/index">人员列表</a>
+		</li>
+		<li>
+		<a class="active" href="javascript:void(0)">添加人员</a>
+		</li>
+		</ul>
+		
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content padding" >
+		<input type="hidden" value="{$user['userid']}" id="userid"/>
+		<div class='field'>
+		<label class='left'>姓名：</label>
+		<input name="realname" type="text" value="{$user['realname']}"/>
+		</div>
+		<div class='field'>
+		<label class='left'>登录名：</label>
+		<input name="username" type="text" value="{$user['username']}" />
+		</div>
+		<div class='field'>
+		<label class='left'>密码：</label>
+		<input name="passwd" type="password" value="" />
+		</div>
+		<div class='field'>
+		<label class='left'>手机号：</label>
+		<input name="mobile" type="text"  value="{$user['mobile']}"/>
+		</div>
+		<div class='field'>
+		<label class='left'>部门：</label>
+		<select id="dept" style="margin-top: 10px">
+		<option value="0">请选择部门</option>
+		<volist name="depts" id="dept">
+			<if condition="$user['deptid'] eq $dept['deptid']">
+			<option selected="selected" value="{$dept.deptid}">{$dept.deptname}</option>
+			<else/>
+			<option value="{$dept.deptid}">{$dept.deptname}</option>
+			</if>
+		</volist>
+		</select>
+		</div>
+		<div class='field'>
+		<label class='left'>职务：</label>
+		<select id="position" style="margin-top: 10px">
+		<option value="0">请选择职务</option>
+		<volist name="positions" id="p">
+			<if condition="$user['positionid'] eq $p['positionid']">
+			<option selected="selected" value="{$p.positionid}">{$p.position}</option>
+			<else/>
+			<option value="{$p.positionid}">{$p.position}</option>
+			</if>
+		</volist>
+		</select>
+		</div>
+		<div class='field'>
+		<label class='left'>email：</label>
+		<input name="email" type="text"  value="{$user['email']}"/>
+		</div>
+		<div class='field'>
+		<label class='left'>办公电话：</label>
+		<input name="tel" type="text"  value="{$user['tel']}"/>
+		</div>
+		<div class='field'>
+		<label class='left'>办公地址：</label>
+		<input name="address" type="text" value="{$user['address']}"/>
+		</div>
+		<div class="field" align="center">
+			<div class="button" style="-moz-user-select: none;">
+			<span>
+			添加
+			<button style="opacity: 0;" id="submit">添加</button>
+			</span>
+			</div> 
+			<div class="button" style="-moz-user-select: none;">
+			<span>
+			重置
+			<button class="secondary" id="cancel" type="button" style="opacity: 0;">重置</button>
+			</span>
+			</div>
+		</div>
+		
+	</div>
+	<!-- Box Content: End -->
+	
+</div>	
+<!-- 75% Box Grid Container: End -->
+
+<include file='../../Public/foot.html'/>
+<script>
+$(function(){
+	$('#cancel').click(function(){
+		$(':input').val("");
+	})
+	$('#dept').change(function(){
+		$this=$(this);
+		$.post("__APP__/ManageUser/getPosition",
+				{'deptid':$('#dept :selected').val()},
+				function(data){
+					$('#position').html(data);
+				})
+	})
+	$('#submit').click(function(){
+		var realname=$('input[name="realname"]').val();
+		var username=$('input[name="username"]').val();
+		var passwd=$('input[name="passwd"]').val();
+		var mobile=$('input[name="mobile"]').val();
+		var deptid=$('#dept :selected').val();
+		var positionid=$('#position :selected').val();
+		var email=$('input[name="email"]').val();
+		var tel=$('input[name="tel"]').val();
+		var address=$('input[name="address"]').val();
+		if(!realname){
+			alert('请填写员工姓名');
+			return;
+		}
+		if(!username){
+			alert('请填写员工登录名');
+			return;
+		}
+		if(!passwd){
+			alert('请填写员工登密码');
+			return;
+		}
+		$.post("__APP__/ManageUser/doaddUser",
+				{'username':username,'realname':realname,'passwd':passwd,'mobile':mobile,'deptid':deptid,'positionid':positionid,'email':email,'tel':tel,'address':address},
+				function(data){
+					if(data=='error'){
+						alert('操作失败，请重试');
+					}else{
+						window.location.href="__APP__/ManageUser/index";
+					}
+				})
+	})
+})
+</script>

@@ -1,0 +1,54 @@
+<div class="box_content">
+<div class="field">
+<label class="left">原密码</label>
+<input type="password" id="oldpwd"/>
+</div>
+<div class="field">
+<label class="left">新密码</label>
+<input type="password" id="newpwd"/>
+</div>
+<div class="field">
+<label class="left">确认密码</label>
+<input type="password" id="confirmpwd"/>
+</div>
+<div class="field" align="center">
+			<div class="button" style="-moz-user-select: none;">
+			<span>
+			提交
+			<button style="opacity: 0;" id="Psubmit">提交</button>
+			</span>
+			</div>
+			<div class="button" style="-moz-user-select: none;">
+			
+			</div>
+		</div>
+</div>
+<script>
+$('#Psubmit').click(function(data){
+	var oldpwd=$.trim($('#oldpwd').val());
+	var newpwd=$.trim($('#newpwd').val());
+	var confirmpwd=$.trim($('#confirmpwd').val());
+	if(!oldpwd){
+		alert('请输入原密码');
+		return;
+	}else if(!newpwd){
+		alert('请输入新密码');
+		return;
+	}else if(newpwd!=confirmpwd){
+		alert('新密码两次输入不一致');
+		return;
+	}
+	$.post(
+			"__APP__/Index/dopasswd",
+			{'newpwd':newpwd,'oldpwd':oldpwd,'confirmpwd':confirmpwd},
+			function(r){
+				if(r.status){
+					alert(r.msg);
+					window.location.href='__ROOT__/index/index.php?s=/Index/logout';
+				}else{
+					alert(r.msg);
+					window.location.reload();
+				}
+			},'json')
+})
+</script>

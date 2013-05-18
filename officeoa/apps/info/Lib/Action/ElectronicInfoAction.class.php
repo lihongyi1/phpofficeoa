@@ -20,7 +20,7 @@ class ElectronicInfoAction extends BaseAction {
     	$data['title']=$title;
     	$data['content']=$content;
     	$data['uid']=$this->usersession['userid'];
-    	$data['date']=date('Y-m-d h:i:s');
+    	$data['date']=date('Y-m-d H:i:s');
     	$res=$this->api->InfoElectronicInfo_addElectronicInfo($data);
     	echo $res;
     }
@@ -86,7 +86,7 @@ class ElectronicInfoAction extends BaseAction {
     	$data['title']=$title;
     	$data['content']=$content;
     	$data['uid']=$this->usersession['userid'];
-    	$data['date']=date('Y-m-d h:i:s');
+    	$data['date']=date('Y-m-d H:i:s');
     	$res=$this->api->InfoElectronicInfo_editElectronicInfo($eid,$data);
     	if(empty($res))
     	echo 'error';

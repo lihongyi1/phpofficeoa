@@ -89,7 +89,7 @@ class InfoAction extends BaseAction {
     	$ids=$_POST['ids'];
     	$data['content']=$info;
     	$data['fromid']=intval($this->usersession['userid']);
-    	$data['ctime']=date('Y-m-d h:i:s');
+    	$data['ctime']=date('Y-m-d H:i:s');
     	foreach($ids as $id){
     		$data['toid']=intval($id);
     		$res=$this->api->InfoInfo_sendInfo($data);

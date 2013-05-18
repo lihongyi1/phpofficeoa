@@ -5,7 +5,8 @@
 			<!-- Breadcrumb: Start -->
 			<ul class="left">
 				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
-				<li class="icon point_right"><a href="__APP__">日常工作</a></li>
+				<li class="icon point_right"><a href="__APP__">资料中心</a></li>
+				<li class="icon point_right"><a href="__APP__/Attach/index">资料管理</a></li>
 			</ul>
 			<!-- Breadcrumb: End -->
 			<!-- Breadcrumb Icon Links: Start -->
@@ -36,7 +37,7 @@
 		<a class="active" href="javascript:location.reload(true)">资料列表</a>
 		</li>
 		<li>
-		<a class="" href="javascript:void(0)">添加资料</a>
+		<a class="" href="__APP__/Attach/addAttach" rel="facebox">添加资料</a>
 		</li>
 		</ul>
 	</div>
@@ -49,24 +50,28 @@
 		<thead>
 			<tr>
 				<th class="align_left" >资料名称</th>
-				<th class="align_left center">大小</th>
-				<th class="align_left center">发布时间</th>
+				<th class="align_left center">简介</th>
 				<th class="align_left center tools">操作</th>
 			</tr>
 		</thead>
 		<tbody>
+		<volist name="resources[0]" id="r">
+		
 			<tr>
-				<th class="align_left" >资料名称</th>
-				<th class="align_left center">大小</th>
-				<th class="align_left center">发布时间</th>
-				<th class="align_left center tools">
-					<a href="#"  class="view tip" title="下载">下载</a>
-					<a href="#"  class="delete tip" title="删除">删除</a>
-				</th>
+				<td class="align_left" ><a href="__APP__/Attach/detail/aid/{$r.aid}" rel="facebox">{$r.attachname}</a></td>
+				<td class="align_left center">{$r.content|mb_substr=###,0,15}</td>
+				<td class="align_left center tools">
+					<a href="__APP__/Attach/download/aid/{$r.aid}"  class="view tip" title="下载">下载</a>
+					<a href="#" id="{$r.aid}"  class="delete tip" title="删除">删除</a>
+				</td>
 			</tr>
+		</volist>
 		</tbody>
 	</table>
 	</div>	
+		<div  style="font-size: 12px" class="right">
+					{$resources['page']}
+				</div>
 	</div>
 	<!-- Box Content: End -->
 	
@@ -74,3 +79,13 @@
 <!-- 75% Box Grid Container: End -->
 
 <include file='../../Public/foot.html'/>
+<script>
+$(function(){
+	$('a[rel="facebox"]').facebox();
+	$('.delete').click(function(){
+			if(confirm('确认删除？')){
+				window.location.href="__APP__/Attach/delete/aid/"+$(this).attr('id');
+			}
+		})
+})
+</script>

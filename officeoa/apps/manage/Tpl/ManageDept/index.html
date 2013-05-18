@@ -1,0 +1,209 @@
+<include file='../../Public/nav/Index.html'/>
+<link href="PUBLIC_URL/js/jstree/themes/default/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="PUBLIC_URL/js/jstree/jquery.jstree.js"></script>
+		<!-- Breadcrumb Bar: Start -->
+		<div id="breadcrumb">
+			
+			<!-- Breadcrumb: Start -->
+			<ul class="left">
+				<li class="icon dashboard"><a href="__ROOT__/index/index.php">首页</a></li>
+				<li class="icon point_right"><a href="__APP__">维护中心</a></li>
+				<li class="icon point_right"><a href="__APP__/ManageDept/index">部门职务中心</a></li>
+			</ul>
+			<!-- Breadcrumb: End -->
+			<!-- Breadcrumb Icon Links: Start -->
+			<ul class="right">
+				<li><a href="#" class="icon support tip" title="当前日期">当前日期：</a></li>
+				<li><a href="#" id="datetime" title="当前日期" style="color: #B0B0B0">当前日期</a></li>
+				
+			</ul>
+			<!-- Breadcrumb Icon Links: End -->
+			
+		</div>
+		<!-- Breadcrumb Bar: End -->
+		
+	</div>
+	<!-- Header Grid Container: End -->
+	
+<include file="../../Public/nav/Manage.html"/>
+
+<!-- 75% Box Grid Container: Start -->
+<div class="grid_18">
+
+	<!-- Box Header: Start -->
+	<div class="box_top padding">
+		
+		<h2 class="icon user">部门职务管理</h2>
+		
+	</div>
+	<!-- Box Header: End -->
+	
+	<!-- Box Content: Start -->
+	<div class="box_content">
+	<div id="demo1" class="box_content"></div>
+	<button id="add_folder">添加部门</button><button id="add_default">添加职务</button>
+	<button id="remove">删除</button><button id="rename">修改名称</button>
+	</div>
+	<!-- Box Content: End -->
+	
+</div>	
+<!-- 75% Box Grid Container: End -->
+
+<include file='../../Public/foot.html'/>
+<script>
+$(function () {
+	$.ajaxSetup( {
+	    cache : false
+	   });//ajax调用不使用缓存
+	 $("#demo1")
+	  .bind("loaded.jstree", function (e, data) {
+	  data.inst.open_all(-1); // -1默认全部展开节点
+	  }) 
+	$("#demo1").jstree({ 
+		"json_data" : {
+			'ajax':{
+				'url':'__APP__/ManageDept/getDepts',
+				'data':function(n){
+				}
+			}
+		},
+		"plugins" : [ 
+			 			"themes","json_data","ui","crrm","dnd","types" 
+			 		],
+		"types" : {
+			"max_depth" : 3,
+			"max_children" : -1,
+			"valid_children" : [ "drive" ],
+			"types" : {
+				"drive" : {
+					"valid_children" : [ "folder" ],
+					"icon" : {
+						"image" : "PUBLIC_URL/js/jstree/_demo/root.png"
+					},
+				},
+				
+				"default" : {
+					"valid_children" : 'folder',
+					"icon" : {
+						//"image" : "PUBLIC_URL/js/jstree/_demo/file.png"
+					},
+				},
+				"folder" : {
+					"valid_children" : [ "default", "file" ],
+					"icon" : {
+						"image" : "PUBLIC_URL/js/jstree/_demo/folder.png"
+					}
+				},
+				"start_drag" : false,
+				"move_node" : false,
+				"delete_node" : false,
+				"remove" : false
+				}
+		},
+	})
+	  .bind("create.jstree", function (e, data) {
+		   var type=(data.rslt.obj.attr('rel'));
+		  if(type=='folder'){
+				$.post(
+						"__APP__/ManageDept/addDept",
+						{"val" : data.rslt.name},
+						function (r) {
+							if(r.status==1) {
+								$(data.rslt.obj).attr("id", "d_" + r.did);
+							}
+							else {
+								alert('操作失败，或部门已经存在');
+								$.jstree.rollback(data.rlbk);
+							}
+						},'json')
+			  
+			}else if(type=='default'){
+				$.post(
+						"__APP__/ManageDept/addDept",
+						{"val" : data.rslt.name,'deptid': data.rslt.parent.attr("id").replace("d_","")},
+						function (r) {
+							if(r.status==1) {
+								$(data.rslt.obj).attr("id", "p_" + r.pid);
+							}
+							else {
+								alert('职务添加失败，请重试');
+								$.jstree.rollback(data.rlbk);
+							}
+						},'json')
+			}
+		  return;
+		})
+		.bind('remove.jstree',function(e,data){
+			$(data.rslt.obj).each(function () {
+				if($(this).attr('rel')=='folder'){
+					$.ajaxSetup({
+						async:false
+					})
+					$.post(
+							"__APP__/ManageDept/delDept",
+							{'type':1,'id':this.id.replace('d_','')},
+							function(r){
+								if(r.status!=1){
+									alert(r.error);
+									data.inst.refresh();
+								}
+							},'json')
+				}else if($(this).attr('rel')=='file'){
+					$.ajaxSetup({
+						async:false
+					})
+						$.post(
+								"__APP__/ManageDept/delDept",
+								{'type':2,'id':this.id.replace('p_','')},
+								function(r){
+									if(r.status!=1){
+										alert(r.error);
+										data.inst.refresh();
+									}
+								},'json')
+					}
+			});
+		})
+		.bind("rename.jstree", function (e, data) {
+			var type=(data.rslt.obj.attr('rel'));
+			if(type=='folder'){
+				$.post(
+						"__APP__/ManageDept/renameDept",
+						{'type':1,'id':data.rslt.obj.attr("id").replace("d_",""),'val':data.rslt.new_name},
+						function(r){
+							if(!r.status) {
+								alert(r.error);
+								$.jstree.rollback(data.rlbk);
+							}
+						},'json')
+			}else if(type=='file'){
+				$.post(
+						"__APP__/ManageDept/renameDept",
+						{'type':2,'id':data.rslt.obj.attr("id").replace("p_",""),'val':data.rslt.new_name},
+						function(r){
+							if(!r.status) {
+								alert(r.error);
+								$.jstree.rollback(data.rlbk);
+							}
+						},'json')
+			}
+			return;
+		})
+		
+});
+
+$(function () { 
+	$("button").click(function () {
+		switch(this.id) {
+			case "add_default":
+			case "add_folder":
+				$("#demo1").jstree("create", null, "last", { "attr" : { "rel" : this.id.toString().replace("add_", "") } });
+				break;
+			default:
+				$("#demo1").jstree(this.id);
+				break;
+		}
+	});
+});
+
+</script>

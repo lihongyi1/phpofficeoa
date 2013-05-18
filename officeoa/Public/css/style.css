@@ -602,9 +602,9 @@ ul#navigation a:hover, ul#navigation li a.active  { color:#fff; background-posit
 .box_content li ol  { margin: 0; padding: 0 0 0 2em; }
 .box_content ul, 
 .box_content ol     { margin: 20px 25px 30px 25px; padding: 0 0 0 0.2em; font-size:13px; }
-.box_content ul li, 
+/*.box_content ul li, 
 .box_content ol li  { margin: 0.5em 0em; padding: 0 0 0 0.5em; }
-
+*/
 .box_content ul     { list-style-type: square; }
 .box_content ol     { list-style-type: decimal; }
 
@@ -920,6 +920,7 @@ table td.tools, table th.tools { width:110px !important; }
 
 .sorting a.edit,
 .sorting a.view,
+.sorting a.permistion,
 .sorting a.delete {
 	background-repeat:none;
 	background-position:center 0px;
@@ -931,12 +932,13 @@ table td.tools, table th.tools { width:110px !important; }
 
 .sorting a.edit:hover,
 .sorting a.view:hover,
+.sorting a.permistion,
 .sorting a.delete:hover { background-position:center -28px; }
 
 .sorting a.edit 	{ background-image: url('../img/icon_tool_edit.png'); }
 .sorting a.view 	{ background-image: url('../img/icon_tool_view.png'); }
 .sorting a.delete 	{ background-image: url('../img/icon_tool_delete.png'); }
-
+.sorting a.permistion {background-image: url('../img/icon_stop.png');}
 /* Big buttons
 -------------------------------------------------------------- */
 

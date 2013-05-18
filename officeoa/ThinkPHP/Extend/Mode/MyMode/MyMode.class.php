@@ -4,6 +4,7 @@ class MyMode extends Action{
 	public $usersession;
 	
 	public function start(){
+		$this->Int(); 
 		$this->sA();
 		$this->stheme();
 	}
@@ -12,6 +13,25 @@ class MyMode extends Action{
 		$this->assign('usersession',$this->usersession);
 		$countmsg=$this->api->InfoInfo_getcount($this->usersession['userid']);
 		$this->assign('countmsg',$countmsg);
+	}
+	
+	public function Int(){
+		if(empty($_SESSION['usersession']['user'])){
+			$this->assign('jumpUrl',SITE_URL);
+			$this->success('您好没有登录，请登录');
+			exit;
+		}
+		if(isset($_SESSION['usersession']['lasttime'])){
+			$lasttime=$_SESSION['usersession']['lasttime'];
+			if((time()-$lasttime)>3600){
+			Session(null);
+			$this->assign('jumpUrl',SITE_URL);
+			$this->success('您已安全退出，请重新登录');
+			exit;
+			}else{
+				$_SESSION['usersession']['lasttime']=time();
+			}
+		}
 	}
 	
 	/**

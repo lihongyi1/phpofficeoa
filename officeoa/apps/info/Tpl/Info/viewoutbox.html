@@ -3,7 +3,7 @@
 					<!-- Message From User: Start -->
 					<volist name='msgs' id="msg">
 					<h6>
-						<span class="icon user"></span> <a href="javascript:void(0)"><if condition="$msg['toid']['userid'] eq $usersession['userid']">我<else/>{$msg['toid']['realname']}</if></a> <span class="nobold">说：</span>
+						<span class="icon user"></span> <a href="javascript:void(0)"><if condition="$msg['fromid']['userid'] eq $usersession['userid']">我<else/>{$msg['fromid']['realname']}</if></a> <span class="nobold">说：</span>
 						<small class="right grey nobold">{$msg.ctime}</small> 
 					</h6>
 					<p>
@@ -22,19 +22,22 @@
 					</div>
 				  
 				  <button class="replyoutbox">发送</button>
-				  <button class="secondary" type="reset">重置</button>
+				  <button class="secondary" type="reset" id="reset">重置</button>
 				  <!-- Quick Reply: End -->
 				  
 			</div>
 			<!-- Messages Popup Content: End -->
 <script>
+$('#reset').click(function(){
+	$('#replyoutbox').val('');
+})
 $('.replyoutbox').click(function(){
 	var rid='{$rid}';
 	$.post(
 			"__APP__/Info/reply",
 			{'rid':rid,'content':$('#replyoutbox').val()},
 			function(data){
-					alert(data);
+				window.location.reload();
 				})
 })
 </script>

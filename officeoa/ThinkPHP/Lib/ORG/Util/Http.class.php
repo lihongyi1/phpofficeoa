@@ -181,7 +181,8 @@ class Http {
         if(empty($showname)) {
             $showname = $filename;
         }
-        $showname = basename($showname);
+       // exit($showname);
+       // $showname = basename($showname);
 		if(!empty($filename)) {
 	        $type = mime_content_type($filename);
 		}else{

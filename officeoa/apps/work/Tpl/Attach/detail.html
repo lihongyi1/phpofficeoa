@@ -1,0 +1,40 @@
+	<!-- Box Content: Start -->
+	<div class="box_content" >
+	<table class="sorting">
+	<tr>
+	<td class="align_left center">资料名称</td>
+	<td class="align_left center">{$data['attachname']}</td>
+	</tr>
+	<tr>
+	<td class="align_left center">资料简介</td>
+	<td class="align_left center">{$data['content']}</td>
+	</tr>
+	<tr>
+	<td class="align_left center">上传时间</td>
+	<td class="align_left center">{$data['ctime']}</td>
+	</tr>
+	<tr>
+	<td class="align_left center">上传人员</td>
+	<td class="align_left center"><a href="__ROOT__/personal/index.php?s=/AddressList/userInfo/uid/{$data['uid']['userid']}" target="_blank">{$data['uid']['realname']}</a></td>
+	</tr>
+	<tr>
+	<td class="align_left center">下载次数</td>
+	<td class="align_left center">{$data['click']}</td>
+	</tr>
+	<tr>
+	<td class="align_left center">操作</td>
+	<td class="align_left center"><button id="{$data['aid']}" name="download">下载</button></td>
+	</tr>
+	</table>
+	</div>
+	<!-- Box Content: End -->
+	
+	
+
+<script type="text/javascript">
+	 $('button[name="download"]').click(function(){
+		    $(document).trigger('close.facebox');
+			window.location.href="__APP__/Attach/download/aid/"+$(this).attr('id');
+		})
+</script>
+

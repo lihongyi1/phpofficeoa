@@ -29,7 +29,7 @@ class InfoInfoApiModel extends Model{
 	*/
 	public function getsend($uid){
 		$condition='fromid='.$uid.' and isnew=1 and isdelete!='.$uid;
-		$data=$this->table(C('DB_PREFIX').'info')->where($condition)->order('isread,ctime desc')->select();
+		$data=$this->table(C('DB_PREFIX').'info')->where($condition)->order('ctime desc')->select();
 		foreach ($data as $key=>$value) {
 			if(empty($value['replyid'])) $data[$key]['replyid']=$value['id'];
 			$data[$key]['toid']=$this->table(C('DB_PREFIX').'user')->field(array('userid','realname'))->where(array('userid'=>$value['toid']))->find();
@@ -114,7 +114,7 @@ class InfoInfoApiModel extends Model{
 		$data1['fromid']=$uid;
 		$data1['toid']=$data['fromid']==$uid?$data['toid']:$data['fromid'];
 		$data1['replyid']=$rid;
-		$data1['ctime']=date('Y-m-d h:i:s');
+		$data1['ctime']=date('Y-m-d H:i:s');
 		$condition='(fromid='.$uid.') and (replyid='.$rid.' or id='.$rid.') and isnew=1';
 		$res=$this->table(C('DB_PREFIX').'info')->where($condition)->save(array('isnew'=>0));
 		$res=$this->table(C('DB_PREFIX').'info')->add($data1);
